@@ -1,5 +1,7 @@
 
 angular.module('hindsightinvesting', [
+  'ui.bootstrap',
+  'chart.js',
   'ngRoute',
   'hindsightinvesting.todo',
   'hindsightinvesting.investments'

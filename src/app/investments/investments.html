@@ -1,12 +1,22 @@
-<h3>Todo</h3>
-<ul class="todo-list">
-  <li class="todo-item">
-    <form ng-submit="add()">
-      <input type="text" placeholder="New item..." ng-model="label"/>
-      <button type="submit" ng-disabled="posting || !label">Add</button>
-    </form>
-  </li>
-  <li class="todo-item" ng-repeat="todo in todos" ng-class="{'todo-done': todo.isDone}">
-    <label><input type="checkbox" ng-click="check()" ng-model="todo.isDone"/>&nbsp;{{todo.label}}</label>
-  </li>
-</ul>
+<div class="col-xs-12" style="height:30px;"></div>
+
+<div class = "row">
+  <div class="col-xs-offset-2 col-xs-2 text-center">Savings Account</div>
+  <div class="col-xs-offset-4 col-xs-2 text-center">Buy and Hold</div>
+</div>
+
+<div class = "row">
+  <div class="col-xs-offset-2 col-xs-2 text-center img-rounded" style="border: 2px solid">${{data[0].slice(-1)[0]}}</div>
+  <div class="col-xs-offset-4 col-xs-2 text-center img-rounded" style="border: 2px solid">${{data[1].slice(-1)[0]}}</div>
+</div>
+
+<div class="col-xs-12" style="height:30px;"></div>
+
+<div class = "row">
+  <div class="col-xs-offset-2 col-xs-8 text-center img-rounded" style="border: 2px solid">
+    <canvas id="line" class="chart chart-line" chart-data="data"
+            chart-labels="labels" chart-legend="true" chart-series="series"
+            chart-click="onClick" >
+    </canvas>
+  </div>
+</div>
