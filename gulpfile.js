@@ -11,7 +11,10 @@ var gulp = require('gulp'),
     lazypipe = require('lazypipe'),
     stylish = require('jshint-stylish'),
     bower = require('./bower'),
+    spawn = require('child_process').spawn,
     isWatching = false;
+
+var exec = require('child_process').exec;
 
 var htmlminOpts = {
   removeComments: true,
@@ -142,6 +145,17 @@ gulp.task('statics', g.serve({
   root: ['./.tmp', './.tmp/src/app', './src/app', './bower_components']
 }));
 
+
+gulp.task('server', function() {
+  if (node) node.kill()
+  var node = spawn('node', ['server/server.js'], {stdio: 'inherit'})
+  node.on('close', function (code) {
+    if (code === 8) {
+      gulp.log('Error detected, waiting for changes...');
+    }
+  });
+})
+
 /**
  * Watch
  */
@@ -171,7 +185,7 @@ gulp.task('watch', ['statics', 'default'], function () {
 /**
  * Default task
  */
-gulp.task('default', ['lint', 'build-all']);
+gulp.task('default', ['lint', 'build-all', 'server']);
 
 /**
  * Lint everything

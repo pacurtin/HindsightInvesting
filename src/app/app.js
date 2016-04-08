@@ -5,8 +5,9 @@ angular.module('hindsightinvesting', [
   'hindsightinvesting.todo',
   'hindsightinvesting.investments',
 ])
-  .config(function ($routeProvider) {
+  .config(function ($routeProvider, $httpProvider) {
     'use strict';
+
     $routeProvider
       .when('/todo', {
         controller: 'TodoCtrl',
