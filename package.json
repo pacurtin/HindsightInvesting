@@ -7,6 +7,10 @@
     "test": "gulp test"
   },
   "dependencies": {
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "gulp-webserver": "^0.9.1",
+    "lodash": "^4.9.0",
     "request": "^2.70.0"
   },
   "devDependencies": {
