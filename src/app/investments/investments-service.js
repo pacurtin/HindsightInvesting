@@ -6,14 +6,16 @@ angular.module('hindsightinvesting.investments').factory('InvestmentsService',['
   'use strict';
 
   return {
-    /*getStockData: function (stockName) {
+    /*getStockData: function (stockTicker) {
       return $http.jsonp('http://jsonplaceholder.typicode.com/posts/1?callback=JSON_CALLBACK"').success(function(data){
         console.log(data);});
     }*/
-    getStockData: function (stockName) {
-      return $http.get('http://localhost:8000/listUsers').success(function(data){
+    getStockData: function (stockTicker) {
+      return $http.get('http://localhost:8000/listUsers', {params: { stockTicker: stockTicker }}).success(function(data){
+        console.log(stockTicker);
         data=data.substring(42,data.length);
-        console.log(data);});
+        //console.log(data);
+      });
     }
   };
 

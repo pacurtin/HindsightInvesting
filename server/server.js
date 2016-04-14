@@ -37,10 +37,14 @@ var app = express();
 
 app.use(cors({origin: 'http://localhost:3000'}));
 
+//app.get('/listUsers', function (req, res) {
+  //request('http://ichart.finance.yahoo.com/table.csv?s=GE&g=w', function (error, response, body) {
 app.get('/listUsers', function (req, res) {
-  request('http://ichart.finance.yahoo.com/table.csv?s=GE&g=w', function (error, response, body) {
+  request('http://ichart.finance.yahoo.com/table.csv?s='+req.query.stockTicker+'&g=w', function (error, response, body) {
+    console.log(req.query.stockTicker)
     if (!error && response.statusCode == 200) {
-      console.log(body) // Print the stock data page.
+      //console.log(body) // Print the stock data page.
+      console.log(req.query.stockTicker)
       res.end( body );
     }
   })
