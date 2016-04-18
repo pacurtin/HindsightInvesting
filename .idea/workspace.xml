@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="investments.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="investments.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/investments/investments.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5731132">
-              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            <state vertical-scroll-proportion="-4.927273">
+              <caret line="53" column="64" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
@@ -64,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="investments-controller.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="investments-controller.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/investments/investments-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.637931">
-              <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+            <state vertical-scroll-proportion="-0.9786223">
+              <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -90,15 +90,15 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
               <folding>
-                <marker date="1460642243835" expanded="true" signature="309:321" placeholder="..." />
-                <marker date="1460642243835" expanded="true" signature="675:692" placeholder="..." />
-                <marker date="1460642243835" expanded="true" signature="807:824" placeholder="..." />
-                <marker date="1460642243835" expanded="true" signature="926:938" placeholder="..." />
-                <marker date="1460642243835" expanded="true" signature="1069:1086" placeholder="..." />
-                <marker date="1460642243835" expanded="true" signature="1436:1448" placeholder="..." />
-                <marker date="1460642243835" expanded="true" signature="1579:1596" placeholder="..." />
-                <marker date="1460642243835" expanded="true" signature="2004:2021" placeholder="..." />
-                <marker date="1460642243835" expanded="true" signature="2588:2605" placeholder="..." />
+                <marker date="1460643511694" expanded="true" signature="309:321" placeholder="..." />
+                <marker date="1460643511694" expanded="true" signature="675:692" placeholder="..." />
+                <marker date="1460643511694" expanded="true" signature="807:824" placeholder="..." />
+                <marker date="1460643511694" expanded="true" signature="926:938" placeholder="..." />
+                <marker date="1460643511694" expanded="true" signature="1069:1086" placeholder="..." />
+                <marker date="1460643511694" expanded="true" signature="1436:1448" placeholder="..." />
+                <marker date="1460643511694" expanded="true" signature="1579:1596" placeholder="..." />
+                <marker date="1460643511694" expanded="true" signature="2004:2021" placeholder="..." />
+                <marker date="1460643511694" expanded="true" signature="2588:2605" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -527,16 +527,16 @@
       <workItem from="1459411644643" duration="34927000" />
       <workItem from="1459937483913" duration="10148000" />
       <workItem from="1460023178826" duration="2716000" />
-      <workItem from="1460043475971" duration="54952000" />
+      <workItem from="1460043475971" duration="56614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109961000" />
+    <option name="totallyTimeSpent" value="111623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -950,15 +950,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
           <folding>
-            <marker date="1460642243835" expanded="true" signature="309:321" placeholder="..." />
-            <marker date="1460642243835" expanded="true" signature="675:692" placeholder="..." />
-            <marker date="1460642243835" expanded="true" signature="807:824" placeholder="..." />
-            <marker date="1460642243835" expanded="true" signature="926:938" placeholder="..." />
-            <marker date="1460642243835" expanded="true" signature="1069:1086" placeholder="..." />
-            <marker date="1460642243835" expanded="true" signature="1436:1448" placeholder="..." />
-            <marker date="1460642243835" expanded="true" signature="1579:1596" placeholder="..." />
-            <marker date="1460642243835" expanded="true" signature="2004:2021" placeholder="..." />
-            <marker date="1460642243835" expanded="true" signature="2588:2605" placeholder="..." />
+            <marker date="1460643511694" expanded="true" signature="309:321" placeholder="..." />
+            <marker date="1460643511694" expanded="true" signature="675:692" placeholder="..." />
+            <marker date="1460643511694" expanded="true" signature="807:824" placeholder="..." />
+            <marker date="1460643511694" expanded="true" signature="926:938" placeholder="..." />
+            <marker date="1460643511694" expanded="true" signature="1069:1086" placeholder="..." />
+            <marker date="1460643511694" expanded="true" signature="1436:1448" placeholder="..." />
+            <marker date="1460643511694" expanded="true" signature="1579:1596" placeholder="..." />
+            <marker date="1460643511694" expanded="true" signature="2004:2021" placeholder="..." />
+            <marker date="1460643511694" expanded="true" signature="2588:2605" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -967,14 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/investments/investments-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.637931">
-          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -999,8 +991,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/investments/investments.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5731132">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        <state vertical-scroll-proportion="-4.927273">
+          <caret line="53" column="64" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
@@ -1012,6 +1004,14 @@
             <element signature="n#style#0;n#div#0;n#div#7;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#8;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/investments/investments-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9786223">
+          <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

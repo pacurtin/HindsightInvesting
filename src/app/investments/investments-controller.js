@@ -58,7 +58,7 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
       "Low":"30.51",
       "Close":"30.790001",
       "Volume":"33991200",
-      "Adj Close":"30.790001"
+      "Adj Close":"31.790001"
     },
     {
       "Date":"2016-04-11",
@@ -76,7 +76,7 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
       "Low":"30.51",
       "Close":"30.790001",
       "Volume":"33991200",
-      "Adj Close":"30.790001"
+      "Adj Close":"32.790001"
     },
     {
       "Date":"2016-04-18",
@@ -85,7 +85,7 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
       "Low":"30.51",
       "Close":"50.790001",
       "Volume":"33991200",
-      "Adj Close":"30.790001"
+      "Adj Close":"34.790001"
     },
     {
       "Date":"2016-04-25",
@@ -94,7 +94,7 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
       "Low":"30.51",
       "Close":"32.790001",
       "Volume":"33991200",
-      "Adj Close":"30.790001"
+      "Adj Close":"32.790001"
     }
   ];
 
