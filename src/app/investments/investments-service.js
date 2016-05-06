@@ -12,7 +12,6 @@ angular.module('hindsightinvesting.investments').factory('InvestmentsService',['
     }*/
     getStockData: function (stockTicker) {
       return $http.get('http://localhost:8000/listUsers', {params: { stockTicker: stockTicker }}).success(function(data){
-        console.log(stockTicker);
         data=data.substring(42,data.length);
         //console.log(data);
       });

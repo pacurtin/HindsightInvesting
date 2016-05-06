@@ -4,8 +4,9 @@ var app = angular.module('hindsightinvesting', [
   'chart.js',
   'hindsightinvesting.todo',
   'hindsightinvesting.investments',
+  'ngMaterial'
 ])
-  .config(function ($routeProvider, $httpProvider) {
+  .config(function ($routeProvider) {
     'use strict';
 
     $routeProvider
@@ -20,7 +21,7 @@ var app = angular.module('hindsightinvesting', [
       .otherwise({
         redirectTo: '/investments'
       });
-  })
+  });
 
   app.run(function($rootScope) {
     //app util functions
@@ -169,4 +170,4 @@ var app = angular.module('hindsightinvesting', [
 
     };
 
-  })
+  });

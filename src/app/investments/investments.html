@@ -25,27 +25,38 @@
 
 <div class = "row">
   <div class="col-xs-offset-2 col-xs-8 text-center img-rounded" style="border: 2px solid">
+
+    <table class = table>
+      <thead>
+      <tr>
+        <th>Stock Name</th>
+        <th>Date of Purchase</th>
+        <th>Amount(EURO)</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr ng-repeat="investment in investments">
+        <td>{{investment.name}}</td>
+        <td>{{investment.date}}</td>
+        <td>{{investment.amount}}</td>
+      </tr>
+      </tbody>
+    </table>
+
     <form novalidate class="simple-form">
       Stock Name: <input type="text" ng-model="formFields.stockTicker"/><br />
-      <input type="submit" ng-click="retrieveStockData()" value="Save" />
+      <!--Date of Purchase: <input type="text" ng-model="formFields.date"/><br />-->
+      Date of Purchase: <md-datepicker ng-model="formFields.date" md-placeholder="Enter date"></md-datepicker>
+      Amount(EURO): <input type="number" ng-model="formFields.amount"/><br />
+      <input type="submit" ng-click="retrieveStockData()" value="Invest" />
     </form>
   </div>
 </div>
 
-<div class = "row">
+<!--<div class = "row">
   <div class="col-xs-offset-2 col-xs-8 text-center img-rounded" style="border: 2px solid">
     <p>HELLO!</p>
     <p>{{testJson}}</p>
-    <!--<table>
-      <tr>
-        <th>Date</th>
-        <th>Close Price</th>
-      </tr>
-      <tr ng-repeat="stock in stockDataCSV track by $index">
-        <td>{{stock.Date}}</td>
-        <td>{{stock.Close}}</td>
-      </tr>
-    </table>-->
   </div>
 </div>
 
@@ -53,4 +64,11 @@
   <div class="col-xs-offset-2 col-xs-8 text-center img-rounded" style="border: 2px solid">
     <input type="submit" ng-click="extractRelevantStockInfo(testJson)" value="TestJson" />
   </div>
-</div>
+</div>-->
+
+
+<div class="col-xs-12" style="height:30px;"></div>
+<!--<p>{{labels}}</p>-->
+<p>{{nearestDate}}</p>
+<p>{{formFields.date}}</p>
+<p>{{nearestDate}}</p>

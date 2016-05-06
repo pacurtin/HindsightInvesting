@@ -147,14 +147,14 @@ gulp.task('statics', g.serve({
 
 
 gulp.task('server', function() {
-  if (node) node.kill()
-  var node = spawn('node', ['server/server.js'], {stdio: 'inherit'})
+  if (node) {node.kill();}
+  var node = spawn('node', ['server/server.js'], {stdio: 'inherit'});
   node.on('close', function (code) {
     if (code === 8) {
       gulp.log('Error detected, waiting for changes...');
     }
   });
-})
+});
 
 /**
  * Watch
