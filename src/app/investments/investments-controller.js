@@ -4,32 +4,44 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
 
   $scope.formFields = {};     //declaring my own scope to allow 2 way binding and form work together.
   $scope.retrieveStockData = retrieveStockData;
+  var investmentSeries= []; //will use this to keep track of data points for each series. summing them will give true graph series. Also by keeping track of them we can delete investments and recalculate graph line.
 
   //TODO refactor this to return a data array rather than just altering $scope.data and $scope.labels
   //function to take the closing price from the JSON recieved and put it in an array for chartJS to display
   function extractRelevantStockInfo(stockJsonArray){
-    var labelsArray = []; //pushing each label directly into $scope.labels was causing problems.
-    $scope.labels=[];   //clear existing graph
-    var dataArray=[]; //chartJS data is in the form of [[series1],[series2]]. Effectively a multi dimensional array.
-    $scope.data=[];
+    var datesArray = [];
+    var dataArray=[];
 
     for (var key in stockJsonArray) {
       if (stockJsonArray.hasOwnProperty(key)) {
-        labelsArray.push(stockJsonArray[key].Date);
+        datesArray.push(stockJsonArray[key].Date);
         dataArray.push(stockJsonArray[key]['Adj Close']);
       }
     }
 
     dataArray=dataArray.reverse();
-    labelsArray=labelsArray.reverse();
+    datesArray=datesArray.reverse();
+    var dateObjectArray = convertStringDatesToJsDates(datesArray);
 
-    var dateObjectArray = convertStringDatesToJsDates(labelsArray);
     //var closestDateToUserSelectionIndex = nearestDate(dateObjectArray,new Date("2016-04-12T23:00:00.000Z"));
     var closestDateToUserSelectionIndex = nearestDate(dateObjectArray,new Date($scope.formFields.date));
-    $scope.nearestDate=labelsArray[closestDateToUserSelectionIndex];
+    $scope.nearestDate=datesArray[closestDateToUserSelectionIndex];//remove later
 
-    drawGraph(dataArray,labelsArray); //mainly used to reduce down the number of labels to fit on X-axis of graph.
+    var stockObject =
+    {
+      'dataArray':dataArray,
+      'datesArray':datesArray,
+      'dateObjectArray':dateObjectArray,
+      'closestDateToUserSelectionIndex':closestDateToUserSelectionIndex
+    };//contains all relevant data about stock in a usable JSON(?) format.
+
+    //updateGraph(stockObject);
+    drawGraph(dataArray,datesArray); //strips down labels.
   }
+
+  /*updateGraph(dataArray,datesArray){
+    investmentSeries.push({dataArray,datesArray});
+  }*/
 
   function convertStringDatesToJsDates(datesArray){
     var dateObjects = [];
@@ -86,7 +98,9 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
   }
 
   function drawGraph(dataArray,labelsArray){
-    $scope.data.push(dataArray);
+    $scope.data=[];
+    $scope.labels=[];   //clear existing graph
+    $scope.data.push(dataArray);  //chartJS data is in the form of [[series1],[series2]]. Effectively a multi dimensional array.
     $scope.labels=labelsArray;
 
     if($scope.labels.length>50){
