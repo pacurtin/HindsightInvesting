@@ -24,24 +24,29 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
     var dateObjectArray = convertStringDatesToJsDates(datesArray);
 
     //var closestDateToUserSelectionIndex = nearestDate(dateObjectArray,new Date("2016-04-12T23:00:00.000Z"));
-    var closestDateToUserSelectionIndex = nearestDate(dateObjectArray,new Date($scope.formFields.date));
-    $scope.nearestDate=datesArray[closestDateToUserSelectionIndex];//remove later
+    var nearestDateIndex = nearestDate(dateObjectArray,new Date($scope.formFields.date));
 
     var stockObject =
     {
       'dataArray':dataArray,
       'datesArray':datesArray,
       'dateObjectArray':dateObjectArray,
-      'closestDateToUserSelectionIndex':closestDateToUserSelectionIndex
-    };//contains all relevant data about stock in a usable JSON(?) format.
+      'nearestDateIndex':nearestDateIndex
+    };//contains all relevant data about stock in a usable JSON(i dont think json allows arrays like this?) format.
 
-    //updateGraph(stockObject);
+    //$scope.nearestDate=stockObject.dataArray[0]; //it works!!!
+    createInvestmentSeries(stockObject);
     drawGraph(dataArray,datesArray); //strips down labels.
   }
 
-  /*updateGraph(dataArray,datesArray){
-    investmentSeries.push({dataArray,datesArray});
-  }*/
+  function createInvestmentSeries(stockObject){
+    var series = {};
+    for(var i = stockObject.nearestDateIndex; i<stockObject.dateObjectArray.length;i++){
+      series[stockObject.dateObjectArray[i]]=stockObject.dataArray[i];
+    }
+    $scope.nearestDate=stockObject.dateObjectArray[stockObject.dateObjectArray.length];
+    investmentSeries.push(series);
+  }
 
   function convertStringDatesToJsDates(datesArray){
     var dateObjects = [];
