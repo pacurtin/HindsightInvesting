@@ -6,8 +6,6 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
   $scope.formFields.stockTicker='GOOG'; //clear inputs. date picker seems to clear itself.
   $scope.formFields.amount=500;//todo delete
 
-  var sysdate=new Date('2016-08-20T00:00:00.000Z') //todo replace this
-
   var adjCloseArray = null;   //TODO investigate if declaring these here is bad practice. is this like using global variables?
   var datesArray  = null;
   var javaScriptDatesArray = null;
@@ -26,31 +24,32 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
   $scope.investments = [];
 
   $scope.addInvestment = function(){
-    var stockData = retrieveStockData($scope.formFields.stockTicker);
-    extractRelevantStockInfo(stockData);
+    retrieveStockData($scope.formFields.stockTicker).then(function (results) {    //then uses promise chain to solve asynchronous call problem
+      extractRelevantStockInfo(results);
 
 
-    var investment = {
-      name:$scope.formFields.stockTicker,     //Abbreviation used to uniquely identify publicly traded shares of a particular stock on a particular stock market.
-      date:$scope.formFields.date,            //Date user has selected in the GUI.
-      nearestDate:javaScriptDatesArray[nearestDateIndex],         //Closest date in data to user selection. JS date object.
-      amount:$scope.formFields.amount,        //Amount in euro invested.
-      adjCloseArray:adjCloseArray,     //Stock data from Yahoo. Stock's closing price on any given day of trading that has been amended to include any distributions and corporate actions.
-      datesArray:datesArray,      //Dates corresponding to adjCloseArray entries.
-      javaScriptDatesArray:javaScriptDatesArray,     //Same as datesArray except in JavaScript Date format. Needed for finding nearestDateIndex. Might be useful for other stuff too.
-      nearestDateIndex:nearestDateIndex   //This stores the index of javaScriptDatesArray (and by extension of datesArray) which is closest to 'date'.
-    };
-    $scope.investments.push(investment);      //Persist investment data
+      var investment = {
+        name:$scope.formFields.stockTicker,     //Abbreviation used to uniquely identify publicly traded shares of a particular stock on a particular stock market.
+        date:$scope.formFields.date,            //Date user has selected in the GUI.
+        nearestDate:javaScriptDatesArray[nearestDateIndex],         //Closest date in data to user selection. JS date object.
+        amount:$scope.formFields.amount,        //Amount in euro invested.
+        adjCloseArray:adjCloseArray,     //Stock data from Yahoo. Stock's closing price on any given day of trading that has been amended to include any distributions and corporate actions.
+        datesArray:datesArray,      //Dates corresponding to adjCloseArray entries.
+        javaScriptDatesArray:javaScriptDatesArray,     //Same as datesArray except in JavaScript Date format. Needed for finding nearestDateIndex. Might be useful for other stuff too.
+        nearestDateIndex:nearestDateIndex   //This stores the index of javaScriptDatesArray (and by extension of datesArray) which is closest to 'date'.
+      };
+      $scope.investments.push(investment);      //Persist investment data
 
-    var earliestDate = findEarliestDate($scope.investments);
-    //createInvestmentSeries(stockObject);  //Construct data points for graph. Need to combine individual investments into overall portfolio.
-    prepareGraphData(earliestDate,$scope.investments); //Create labels for graph. Need a date for every friday between the earliest investment and the current date. Then fill a second series corrosponding to portfolio values on each date.
-    //drawGraph(dataArray,datesArray); //strips down labels. Redraw graph.
+      var earliestDate = findEarliestDate($scope.investments);
+      //createInvestmentSeries(stockObject);  //Construct data points for graph. Need to combine individual investments into overall portfolio.
+      prepareGraphData(earliestDate,$scope.investments); //Create labels for graph. Need a date for every friday between the earliest investment and the current date. Then fill a second series corrosponding to portfolio values on each date.
+      //drawGraph(dataArray,datesArray); //strips down labels. Redraw graph.
 
-    //$scope.formFields.stockTicker=''; //clear inputs. date picker seems to clear itself.
-    //$scope.formFields.amount='';
-    $scope.formFields.stockTicker='GOOG'; //clear inputs. date picker seems to clear itself.
-    $scope.formFields.amount=500;
+      //$scope.formFields.stockTicker=''; //clear inputs. date picker seems to clear itself.
+      //$scope.formFields.amount='';
+      $scope.formFields.stockTicker='GOOG'; //clear inputs. date picker seems to clear itself.
+      $scope.formFields.amount=500;
+    });
   }
 
   $scope.removeInvestment = function(index){
@@ -62,10 +61,10 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
 
   function retrieveStockData(ticker) {
     //e.g. ticker = 'GOOG'
-    //InvestmentsService.getStockData(ticker).then(function (results) {
-    //  return JSON.parse($scope.UTIL.csv2Json(results.data.slice(0, -1)));  //need to slice off a return at end of data.
-    //});
-    return JSON.parse(JSON.stringify($scope.testJson));
+    return InvestmentsService.getStockData(ticker).then(function (results) {
+      return JSON.parse($scope.UTIL.csv2Json(results.data.slice(0, -1)));  //need to slice off a return at end of data.
+    });
+    //return JSON.parse(JSON.stringify($scope.testJson));
   }
 
 
@@ -146,14 +145,15 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
 
   function prepareGraphData(earliestDate,investments){
     //1.set labels array. start at earliest date. add label for every friday between earliest and today. possibly set data array here too? each set to zero
-    var labels=[];
+    var dateLabels=[];
     var totalValueArray=[];
+    var currDate= new Date();
 
-    //while(earliestDate<sysdate){
-      labels.push(earliestDate);
+    while(earliestDate<currDate){
+      dateLabels.push(earliestDate);
       totalValueArray.push(0);
-      incrementDate(earliestDate); //apparently javascript date doesnt come with this... have no internet on plane so just going to write it myself.
-    //}
+      earliestDate = addDays(earliestDate, 7);
+    }
 
 
     //2.iterate through labels adding (amount1*price1)+(amount2*price2)+(amount3*price3) at each point
@@ -161,22 +161,10 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
     //3.one more sweep setting any zero values to match previous. this should prevent days with missing data skrewing up the graph.
   }
 
-  function incrementDate(dateIn) {
-    //todo leap year or replace this altogether
-
-    var day =dateIn.getDay();
-    var month =dateIn.getMonth();
-    var year =dateIn.getYear();
-
-    var dayUTC =dateIn.getUTCDay();
-    var monthUTC =dateIn.getUTCMonth();
-    var yearUTC =dateIn.getUTCFullYear();
-
-    var dateOut = new Date('2016-08-20T00:00:00.000Z');
-    //dateOut = dateOut.setFullYear(year,month,day);
-    dateOut = dateOut.setUTCFullYear(yearUTC,monthUTC,dayUTC).toISOString();
-
-
+  function addDays(date, days) {
+    var result = new Date(date);
+    result.setDate(result.getDate() + days);
+    return result;
   }
 
   /*ChartJS Stuff*/
