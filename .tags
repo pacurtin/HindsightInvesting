@@ -1,0 +1,1009 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+body	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\.tmp\css\app.css	/^body {$/;"	function	line:1
+input	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\.tmp\css\app.css	/^input,$/;"	function	line:7
+textarea	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\.tmp\css\app.css	/^textarea,$/;"	function	line:8
+button	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\.tmp\css\app.css	/^button {$/;"	function	line:9
+.todo-list	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\.tmp\css\investments\investments.css	/^.todo-list {$/;"	function	line:1
+.todo-item	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\.tmp\css\investments\investments.css	/^.todo-item {$/;"	function	line:6
+.todo-done	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\.tmp\css\investments\investments.css	/^.todo-done {$/;"	function	line:9
+.todo-list	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\.tmp\css\todo\todo.css	/^.todo-list {$/;"	function	line:1
+.todo-item	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\.tmp\css\todo\todo.css	/^.todo-item {$/;"	function	line:6
+.todo-done	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\.tmp\css\todo\todo.css	/^.todo-done {$/;"	function	line:9
+name	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower.json	/^  "name": "hindsightinvesting",$/;"	function	line:2
+main	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower.json	/^  "main": [$/;"	function	line:3
+version	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower.json	/^  "version": "0.1.0",$/;"	function	line:7
+description	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower.json	/^  "description": "TODO",$/;"	function	line:8
+authors	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower.json	/^  "authors": [$/;"	function	line:9
+ignore	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower.json	/^  "ignore": [$/;"	function	line:12
+dependencies	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower.json	/^  "dependencies": {$/;"	function	line:21
+angular	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower.json	/^    "angular": "~1.2.14",$/;"	function	line:22
+angular-route	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower.json	/^    "angular-route": "~1.2.14",$/;"	function	line:23
+angular-bootstrap	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower.json	/^    "angular-bootstrap": "^1.2.5",$/;"	function	line:24
+bootstrap	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower.json	/^    "bootstrap": "^3.3.6",$/;"	function	line:25
+angular-chart.js	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower.json	/^    "angular-chart.js": "^0.9.0",$/;"	function	line:26
+angular-material	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower.json	/^    "angular-material": "^1.0.8"$/;"	function	line:27
+overrides	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower.json	/^  "overrides": {$/;"	function	line:29
+bootstrap	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower.json	/^    "bootstrap": {$/;"	function	line:30
+main	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower.json	/^      "main": [$/;"	function	line:31
+devDependencies	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower.json	/^  "devDependencies": {$/;"	function	line:38
+angular-mocks	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower.json	/^    "angular-mocks": "~1.2.14"$/;"	function	line:39
+resolutions	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower.json	/^  "resolutions": {$/;"	function	line:41
+angular	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower.json	/^    "angular": ">=1.4.0"$/;"	function	line:42
+name	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\.bower.json	/^  "name": "angular",$/;"	function	line:2
+version	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\.bower.json	/^  "version": "1.4.12",$/;"	function	line:3
+license	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\.bower.json	/^  "license": "MIT",$/;"	function	line:4
+main	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\.bower.json	/^  "main": ".\/angular.js",$/;"	function	line:5
+ignore	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\.bower.json	/^  "ignore": [],$/;"	function	line:6
+dependencies	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\.bower.json	/^  "dependencies": {},$/;"	function	line:7
+homepage	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\.bower.json	/^  "homepage": "https:\/\/github.com\/angular\/bower-angular",$/;"	function	line:8
+_release	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\.bower.json	/^  "_release": "1.4.12",$/;"	function	line:9
+_resolution	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\.bower.json	/^  "_resolution": {$/;"	function	line:10
+type	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\.bower.json	/^    "type": "version",$/;"	function	line:11
+tag	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\.bower.json	/^    "tag": "v1.4.12",$/;"	function	line:12
+commit	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\.bower.json	/^    "commit": "639d3950c461f706a97cda97ba89e97d706d06f9"$/;"	function	line:13
+_source	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\.bower.json	/^  "_source": "https:\/\/github.com\/angular\/bower-angular.git",$/;"	function	line:15
+_target	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\.bower.json	/^  "_target": "1.4.x",$/;"	function	line:16
+_originalSource	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\.bower.json	/^  "_originalSource": "angular"$/;"	function	line:17
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak]	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular-csp.css	/^[ng\\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak],$/;"	function	line:5
+.ng-cloak, .x-ng-cloak	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular-csp.css	/^.ng-cloak, .x-ng-cloak,$/;"	function	line:6
+.ng-hide:not(.ng-hide-animate)	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular-csp.css	/^.ng-hide:not(.ng-hide-animate) {$/;"	function	line:7
+ng\:form	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular-csp.css	/^ng\\:form {$/;"	function	line:11
+.ng-animate-shim	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular-csp.css	/^.ng-animate-shim {$/;"	function	line:15
+.ng-anchor	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular-csp.css	/^.ng-anchor {$/;"	function	line:19
+minErr	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function minErr(module, ErrorConstructor) {$/;"	function	line:38
+minErr	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function minErr(module, ErrorConstructor) {$/;"	function	line:38
+REGEX_STRING_REGEXP	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var REGEX_STRING_REGEXP = \/^\\\/(.+)\\\/([a-z]*)$\/;$/;"	variable	line:185
+VALIDITY_STATE_PROPERTY	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var VALIDITY_STATE_PROPERTY = 'validity';$/;"	variable	line:189
+lowercase	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var lowercase = function(string) {return isString(string) ? string.toLowerCase() : string;};$/;"	function	line:201
+lowercase	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var lowercase = function(string) {return isString(string) ? string.toLowerCase() : string;};$/;"	function	line:201
+uppercase	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var uppercase = function(string) {return isString(string) ? string.toUpperCase() : string;};$/;"	function	line:214
+uppercase	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var uppercase = function(string) {return isString(string) ? string.toUpperCase() : string;};$/;"	function	line:214
+manualLowercase	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var manualLowercase = function(s) {$/;"	function	line:217
+manualLowercase	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var manualLowercase = function(s) {$/;"	function	line:217
+manualUppercase	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var manualUppercase = function(s) {$/;"	function	line:223
+manualUppercase	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var manualUppercase = function(s) {$/;"	function	line:223
+msie	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    msie,             \/\/ holds major version number for IE, or NaN if UA is not IE.$/;"	variable	line:241
+isArrayLike	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isArrayLike(obj) {$/;"	function	line:269
+isArrayLike	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isArrayLike(obj) {$/;"	function	line:269
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function forEach(obj, iterator, context) {$/;"	function	line:326
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function forEach(obj, iterator, context) {$/;"	function	line:326
+forEachSorted	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function forEachSorted(obj, iterator, context) {$/;"	function	line:370
+forEachSorted	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function forEachSorted(obj, iterator, context) {$/;"	function	line:370
+reverseParams	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function reverseParams(iteratorFn) {$/;"	function	line:384
+reverseParams	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function reverseParams(iteratorFn) {$/;"	function	line:384
+nextUid	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function nextUid() {$/;"	function	line:398
+nextUid	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function nextUid() {$/;"	function	line:398
+setHashKey	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function setHashKey(obj, h) {$/;"	function	line:408
+setHashKey	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function setHashKey(obj, h) {$/;"	function	line:408
+baseExtend	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function baseExtend(dst, objs, deep) {$/;"	function	line:417
+baseExtend	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function baseExtend(dst, objs, deep) {$/;"	function	line:417
+extend	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function extend(dst) {$/;"	function	line:469
+extend	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function extend(dst) {$/;"	function	line:469
+merge	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function merge(dst) {$/;"	function	line:492
+merge	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function merge(dst) {$/;"	function	line:492
+toInt	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function toInt(str) {$/;"	function	line:498
+toInt	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function toInt(str) {$/;"	function	line:498
+inherit	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function inherit(parent, extra) {$/;"	function	line:503
+inherit	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function inherit(parent, extra) {$/;"	function	line:503
+foo	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^     function foo(callback) {$/;"	function	line:517
+noop	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function noop() {}$/;"	function	line:523
+noop	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function noop() {}$/;"	function	line:523
+transformer	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^   function transformer(transformationFn, value) {$/;"	function	line:538
+getResult	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^   function getResult(fn, input) {$/;"	function	line:543
+getResult	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^   getResult(function(n) { return n * 2; }, 21);   \/\/ returns 42$/;"	function	line:547
+identity	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function identity($) {return $;}$/;"	function	line:555
+identity	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function identity($) {return $;}$/;"	function	line:555
+valueFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function valueFn(value) {return function() {return value;};}$/;"	function	line:559
+valueFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function valueFn(value) {return function() {return value;};}$/;"	function	line:559
+hasCustomToString	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function hasCustomToString(obj) {$/;"	function	line:561
+hasCustomToString	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function hasCustomToString(obj) {$/;"	function	line:561
+isUndefined	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isUndefined(value) {return typeof value === 'undefined';}$/;"	function	line:578
+isUndefined	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isUndefined(value) {return typeof value === 'undefined';}$/;"	function	line:578
+isDefined	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isDefined(value) {return typeof value !== 'undefined';}$/;"	function	line:593
+isDefined	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isDefined(value) {return typeof value !== 'undefined';}$/;"	function	line:593
+isObject	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isObject(value) {$/;"	function	line:609
+isObject	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isObject(value) {$/;"	function	line:609
+isBlankObject	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isBlankObject(value) {$/;"	function	line:620
+isBlankObject	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isBlankObject(value) {$/;"	function	line:620
+isString	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isString(value) {return typeof value === 'string';}$/;"	function	line:637
+isString	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isString(value) {return typeof value === 'string';}$/;"	function	line:637
+isNumber	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isNumber(value) {return typeof value === 'number';}$/;"	function	line:658
+isNumber	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isNumber(value) {return typeof value === 'number';}$/;"	function	line:658
+isDate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isDate(value) {$/;"	function	line:673
+isDate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isDate(value) {$/;"	function	line:673
+isArray	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var isArray = Array.isArray;$/;"	variable	line:690
+isFunction	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isFunction(value) {return typeof value === 'function';}$/;"	function	line:704
+isFunction	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isFunction(value) {return typeof value === 'function';}$/;"	function	line:704
+isRegExp	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isRegExp(value) {$/;"	function	line:714
+isRegExp	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isRegExp(value) {$/;"	function	line:714
+isWindow	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isWindow(obj) {$/;"	function	line:726
+isWindow	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isWindow(obj) {$/;"	function	line:726
+isScope	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isScope(obj) {$/;"	function	line:731
+isScope	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isScope(obj) {$/;"	function	line:731
+isFile	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isFile(obj) {$/;"	function	line:736
+isFile	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isFile(obj) {$/;"	function	line:736
+isFormData	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isFormData(obj) {$/;"	function	line:741
+isFormData	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isFormData(obj) {$/;"	function	line:741
+isBlob	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isBlob(obj) {$/;"	function	line:746
+isBlob	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isBlob(obj) {$/;"	function	line:746
+isBoolean	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isBoolean(value) {$/;"	function	line:751
+isBoolean	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isBoolean(value) {$/;"	function	line:751
+isPromiseLike	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isPromiseLike(obj) {$/;"	function	line:756
+isPromiseLike	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isPromiseLike(obj) {$/;"	function	line:756
+TYPED_ARRAY_REGEXP	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var TYPED_ARRAY_REGEXP = \/^\\[object (?:Uint8|Uint8Clamped|Uint16|Uint32|Int8|Int16|Int32|Float32|Float64)Array\\]$\/;$/;"	variable	line:761
+isTypedArray	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isTypedArray(value) {$/;"	function	line:762
+isTypedArray	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isTypedArray(value) {$/;"	function	line:762
+trim	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var trim = function(value) {$/;"	function	line:767
+trim	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var trim = function(value) {$/;"	function	line:767
+escapeForRegexp	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var escapeForRegexp = function(s) {$/;"	function	line:774
+escapeForRegexp	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var escapeForRegexp = function(s) {$/;"	function	line:774
+isElement	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isElement(node) {$/;"	function	line:792
+isElement	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isElement(node) {$/;"	function	line:792
+makeMap	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function makeMap(str) {$/;"	function	line:802
+makeMap	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function makeMap(str) {$/;"	function	line:802
+nodeName_	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function nodeName_(element) {$/;"	function	line:811
+nodeName_	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function nodeName_(element) {$/;"	function	line:811
+includes	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function includes(array, obj) {$/;"	function	line:815
+return	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  return Array.prototype.indexOf.call(array, obj) != -1;$/;"	class	line:816
+return.indexOf	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  return Array.prototype.indexOf.call(array, obj) != -1;$/;"	method	line:816
+includes	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function includes(array, obj) {$/;"	function	line:815
+arrayRemove	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function arrayRemove(array, value) {$/;"	function	line:819
+arrayRemove	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function arrayRemove(array, value) {$/;"	function	line:819
+update	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      $scope.update = function(user) {$/;"	function	line:869
+reset	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      $scope.reset = function() {$/;"	function	line:874
+copy	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function copy(source, destination) {$/;"	function	line:885
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      forEach(destination, function(value, key) {$/;"	function	line:901
+copyRecurse	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function copyRecurse(source, destination) {$/;"	function	line:915
+copy.copyRecurse	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function copyRecurse(source, destination) {$/;"	function	line:915
+copyElement	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function copyElement(source) {$/;"	function	line:946
+copy.copyElement	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function copyElement(source) {$/;"	function	line:946
+copy	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function copy(source, destination) {$/;"	function	line:885
+shallowCopy	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function shallowCopy(src, dst) {$/;"	function	line:999
+shallowCopy	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function shallowCopy(src, dst) {$/;"	function	line:999
+equals	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function equals(o1, o2) {$/;"	function	line:1049
+equals	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function equals(o1, o2) {$/;"	function	line:1049
+csp	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var csp = function() {$/;"	function	line:1091
+csp.rules.noUnsafeEval	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        noUnsafeEval: !ngCspAttribute || (ngCspAttribute.indexOf('no-unsafe-eval') !== -1),$/;"	property	line:1102
+csp.rules.noUnsafeEval	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        noUnsafeEval: noUnsafeEval(),$/;"	property	line:1107
+noUnsafeEval	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function noUnsafeEval() {$/;"	function	line:1115
+csp.noUnsafeEval	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function noUnsafeEval() {$/;"	function	line:1115
+csp	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var csp = function() {$/;"	function	line:1091
+jq	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var jq = function() {$/;"	function	line:1165
+jq	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var jq = function() {$/;"	function	line:1165
+concat	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function concat(array1, array2, index) {$/;"	function	line:1180
+concat	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function concat(array1, array2, index) {$/;"	function	line:1180
+sliceArgs	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function sliceArgs(args, startIndex) {$/;"	function	line:1184
+sliceArgs	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function sliceArgs(args, startIndex) {$/;"	function	line:1184
+bind	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function bind(self, fn) {$/;"	function	line:1208
+bind	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function bind(self, fn) {$/;"	function	line:1208
+toJsonReplacer	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function toJsonReplacer(key, value) {$/;"	function	line:1229
+toJsonReplacer	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function toJsonReplacer(key, value) {$/;"	function	line:1229
+toJson	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function toJson(obj, pretty) {$/;"	function	line:1261
+toJson	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function toJson(obj, pretty) {$/;"	function	line:1261
+fromJson	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function fromJson(json) {$/;"	function	line:1282
+fromJson	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function fromJson(json) {$/;"	function	line:1282
+ALL_COLONS	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var ALL_COLONS = \/:\/g;$/;"	variable	line:1289
+timezoneToOffset	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function timezoneToOffset(timezone, fallback) {$/;"	function	line:1290
+timezoneToOffset	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function timezoneToOffset(timezone, fallback) {$/;"	function	line:1290
+addDateMinutes	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function addDateMinutes(date, minutes) {$/;"	function	line:1298
+addDateMinutes	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function addDateMinutes(date, minutes) {$/;"	function	line:1298
+convertTimezoneToLocal	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function convertTimezoneToLocal(date, timezone, reverse) {$/;"	function	line:1305
+convertTimezoneToLocal	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function convertTimezoneToLocal(date, timezone, reverse) {$/;"	function	line:1305
+startingTag	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function startingTag(element) {$/;"	function	line:1316
+startingTag	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function startingTag(element) {$/;"	function	line:1316
+tryDecodeURIComponent	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function tryDecodeURIComponent(value) {$/;"	function	line:1346
+tryDecodeURIComponent	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function tryDecodeURIComponent(value) {$/;"	function	line:1346
+parseKeyValue	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function parseKeyValue(\/**string*\/keyValue) {$/;"	function	line:1359
+parseKeyValue	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function parseKeyValue(\/**string*\/keyValue) {$/;"	function	line:1359
+toKeyValue	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function toKeyValue(obj) {$/;"	function	line:1386
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  forEach(obj, function(value, key) {$/;"	function	line:1388
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      forEach(value, function(arrayValue) {$/;"	function	line:1390
+toKeyValue	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function toKeyValue(obj) {$/;"	function	line:1386
+encodeUriSegment	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function encodeUriSegment(val) {$/;"	function	line:1414
+encodeUriSegment	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function encodeUriSegment(val) {$/;"	function	line:1414
+encodeUriQuery	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function encodeUriQuery(val, pctEncodeSpaces) {$/;"	function	line:1433
+encodeUriQuery	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function encodeUriQuery(val, pctEncodeSpaces) {$/;"	function	line:1433
+ngAttrPrefixes	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var ngAttrPrefixes = ['ng-', 'data-ng-', 'ng:', 'x-ng-'];$/;"	variable	line:1443
+getNgAttribute	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function getNgAttribute(element, ngAttr) {$/;"	function	line:1445
+getNgAttribute	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function getNgAttribute(element, ngAttr) {$/;"	function	line:1445
+annotation	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^ *   do not use explicit function annotation (and are thus unsuitable for minification), as described$/;"	function	line:1466
+GoodController2	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^     function GoodController2($scope) {$/;"	function	line:1556
+angularInit	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function angularInit(element, bootstrap) {$/;"	function	line:1583
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  forEach(ngAttrPrefixes, function(prefix) {$/;"	function	line:1589
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  forEach(ngAttrPrefixes, function(prefix) {$/;"	function	line:1597
+angularInit	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function angularInit(element, bootstrap) {$/;"	function	line:1583
+bootstrap	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function bootstrap(element, modules, config) {$/;"	function	line:1662
+bootstrap	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function bootstrap(element, modules, config) {$/;"	function	line:1662
+defaultConfig.strictDi	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    strictDi: false$/;"	property	line:1665
+doBootstrap	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  var doBootstrap = function() {$/;"	function	line:1668
+bootstrapApply	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^       function bootstrapApply(scope, element, compile, injector) {$/;"	function	line:1695
+doBootstrap	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  var doBootstrap = function() {$/;"	function	line:1668
+NG_ENABLE_DEBUG_INFO	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  var NG_ENABLE_DEBUG_INFO = \/^NG_ENABLE_DEBUG_INFO!\/;$/;"	variable	line:1705
+NG_DEFER_BOOTSTRAP	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  var NG_DEFER_BOOTSTRAP = \/^NG_DEFER_BOOTSTRAP!\/;$/;"	variable	line:1706
+resumeBootstrap	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  angular.resumeBootstrap = function(extraModules) {$/;"	function	line:1718
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    forEach(extraModules, function(module) {$/;"	function	line:1719
+angular.resumeBootstrap	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  angular.resumeBootstrap = function(extraModules) {$/;"	function	line:1718
+reloadWithDebugInfo	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function reloadWithDebugInfo() {$/;"	function	line:1740
+reloadWithDebugInfo	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function reloadWithDebugInfo() {$/;"	function	line:1740
+getTestability	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function getTestability(rootElement) {$/;"	function	line:1753
+getTestability	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function getTestability(rootElement) {$/;"	function	line:1753
+SNAKE_CASE_REGEXP	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var SNAKE_CASE_REGEXP = \/[A-Z]\/g;$/;"	variable	line:1762
+snake_case	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function snake_case(name, separator) {$/;"	function	line:1763
+snake_case	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function snake_case(name, separator) {$/;"	function	line:1763
+bindJQueryFired	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var bindJQueryFired = false;$/;"	variable	line:1770
+skipDestroyOnNextJQueryCleanData	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var skipDestroyOnNextJQueryCleanData;$/;"	variable	line:1771
+bindJQuery	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function bindJQuery() {$/;"	function	line:1772
+cleanData	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    jQuery.cleanData = function(elems) {$/;"	function	line:1803
+jQuery.cleanData	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    jQuery.cleanData = function(elems) {$/;"	function	line:1803
+bindJQuery	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function bindJQuery() {$/;"	function	line:1772
+assertArg	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function assertArg(arg, name, reason) {$/;"	function	line:1830
+assertArg	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function assertArg(arg, name, reason) {$/;"	function	line:1830
+assertArgFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function assertArgFn(arg, name, acceptArrayAnnotation) {$/;"	function	line:1837
+assertArgFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function assertArgFn(arg, name, acceptArrayAnnotation) {$/;"	function	line:1837
+assertNotHasOwnProperty	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function assertNotHasOwnProperty(name, context) {$/;"	function	line:1852
+assertNotHasOwnProperty	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function assertNotHasOwnProperty(name, context) {$/;"	function	line:1852
+getter	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function getter(obj, path, bindFnToScope) {$/;"	function	line:1866
+getter	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function getter(obj, path, bindFnToScope) {$/;"	function	line:1866
+getBlockNodes	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function getBlockNodes(nodes) {$/;"	function	line:1890
+getBlockNodes	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function getBlockNodes(nodes) {$/;"	function	line:1890
+createMap	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function createMap() {$/;"	function	line:1920
+createMap	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function createMap() {$/;"	function	line:1920
+NODE_TYPE_ELEMENT	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var NODE_TYPE_ELEMENT = 1;$/;"	variable	line:1924
+NODE_TYPE_ATTRIBUTE	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var NODE_TYPE_ATTRIBUTE = 2;$/;"	variable	line:1925
+NODE_TYPE_TEXT	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var NODE_TYPE_TEXT = 3;$/;"	variable	line:1926
+NODE_TYPE_COMMENT	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var NODE_TYPE_COMMENT = 8;$/;"	variable	line:1927
+NODE_TYPE_DOCUMENT	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var NODE_TYPE_DOCUMENT = 9;$/;"	variable	line:1928
+NODE_TYPE_DOCUMENT_FRAGMENT	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var NODE_TYPE_DOCUMENT_FRAGMENT = 11;$/;"	variable	line:1929
+setupModuleLoader	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function setupModuleLoader(window) {$/;"	function	line:1940
+ensure	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function ensure(obj, name, factory) {$/;"	function	line:1945
+setupModuleLoader.ensure	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function ensure(obj, name, factory) {$/;"	function	line:1945
+module	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    return function module(name, requires, configFn) {$/;"	function	line:2009
+assertNotHasOwnProperty	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      var assertNotHasOwnProperty = function(name, context) {$/;"	function	line:2010
+cancellationFunction	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^           *       return function cancellationFunction(element) {$/;"	function	line:2157
+run	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^          run: function(block) {$/;"	function	line:2236
+invokeLater	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        function invokeLater(provider, method, insertMethod, queue) {$/;"	function	line:2254
+invokeLaterAndSetModuleName	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        function invokeLaterAndSetModuleName(provider, method) {$/;"	function	line:2267
+setupModuleLoader	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function setupModuleLoader(window) {$/;"	function	line:1940
+serializeObject	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function serializeObject(obj) {$/;"	function	line:2282
+serializeObject	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function serializeObject(obj) {$/;"	function	line:2282
+toDebugString	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function toDebugString(obj) {$/;"	function	line:2297
+toDebugString	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function toDebugString(obj) {$/;"	function	line:2297
+version.full	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  full: '1.4.12',    \/\/ all of these placeholder strings will be replaced by grunt's$/;"	property	line:2420
+version.major	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  major: 1,    \/\/ package task$/;"	property	line:2421
+version.minor	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  minor: 4,$/;"	property	line:2422
+version.dot	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  dot: 12,$/;"	property	line:2423
+version.codeName	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  codeName: 'cultural-conservation'$/;"	property	line:2424
+publishExternalAPI	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function publishExternalAPI(angular) {$/;"	function	line:2428
+ngModule	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function ngModule($provide) {$/;"	function	line:2465
+publishExternalAPI	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function publishExternalAPI(angular) {$/;"	function	line:2428
+addEventListenerFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    addEventListenerFn = function(element, type, fn) {$/;"	function	line:2689
+removeEventListenerFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    removeEventListenerFn = function(element, type, fn) {$/;"	function	line:2692
+_data	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^JQLite._data = function(node) {$/;"	function	line:2699
+JQLite._data	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^JQLite._data = function(node) {$/;"	function	line:2699
+jqNextId	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqNextId() { return ++jqId; }$/;"	function	line:2704
+jqNextId	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqNextId() { return ++jqId; }$/;"	function	line:2704
+MOUSE_EVENT_MAP.mouseleave	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var MOUSE_EVENT_MAP= { mouseleave: "mouseout", mouseenter: "mouseover"};$/;"	property	line:2709
+MOUSE_EVENT_MAP.mouseenter	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var MOUSE_EVENT_MAP= { mouseleave: "mouseout", mouseenter: "mouseover"};$/;"	property	line:2709
+camelCase	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function camelCase(name) {$/;"	function	line:2717
+replace	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    replace(SPECIAL_CHARS_REGEXP, function(_, separator, letter, offset) {$/;"	function	line:2719
+camelCase	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function camelCase(name) {$/;"	function	line:2717
+wrapMap.option	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  'option': [1, '<select multiple="multiple">', '<\/select>'],$/;"	property	line:2731
+jqLiteIsTextNode	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteIsTextNode(html) {$/;"	function	line:2745
+jqLiteIsTextNode	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteIsTextNode(html) {$/;"	function	line:2745
+jqLiteAcceptsData	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteAcceptsData(node) {$/;"	function	line:2749
+jqLiteAcceptsData	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteAcceptsData(node) {$/;"	function	line:2749
+jqLiteHasData	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteHasData(node) {$/;"	function	line:2756
+jqLiteHasData	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteHasData(node) {$/;"	function	line:2756
+jqLiteBuildFragment	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteBuildFragment(html, context) {$/;"	function	line:2763
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  forEach(nodes, function(node) {$/;"	function	line:2793
+jqLiteBuildFragment	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteBuildFragment(html, context) {$/;"	function	line:2763
+jqLiteParseHTML	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteParseHTML(html, context) {$/;"	function	line:2800
+jqLiteParseHTML	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteParseHTML(html, context) {$/;"	function	line:2800
+jqLiteWrapNode	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteWrapNode(node, wrapper) {$/;"	function	line:2815
+jqLiteWrapNode	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteWrapNode(node, wrapper) {$/;"	function	line:2815
+JQLite	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function JQLite(element) {$/;"	function	line:2834
+JQLite	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function JQLite(element) {$/;"	function	line:2834
+jqLiteClone	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteClone(element) {$/;"	function	line:2859
+jqLiteClone	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteClone(element) {$/;"	function	line:2859
+jqLiteDealoc	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteDealoc(element, onlyDescendants) {$/;"	function	line:2863
+jqLiteDealoc	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteDealoc(element, onlyDescendants) {$/;"	function	line:2863
+jqLiteOff	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteOff(element, type, fn, unsupported) {$/;"	function	line:2874
+jqLiteOff	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteOff(element, type, fn, unsupported) {$/;"	function	line:2874
+removeHandler	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    var removeHandler = function(type) {$/;"	function	line:2892
+var.removeHandler	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    var removeHandler = function(type) {$/;"	function	line:2892
+jqLiteRemoveData	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteRemoveData(element, name) {$/;"	function	line:2912
+jqLiteRemoveData	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteRemoveData(element, name) {$/;"	function	line:2912
+jqLiteExpandoStore	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteExpandoStore(element, createIfNecessary) {$/;"	function	line:2934
+jqLiteExpandoStore	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteExpandoStore(element, createIfNecessary) {$/;"	function	line:2934
+jqLiteData	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteData(element, key, value) {$/;"	function	line:2947
+jqLiteData	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteData(element, key, value) {$/;"	function	line:2947
+jqLiteHasClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteHasClass(element, selector) {$/;"	function	line:2973
+jqLiteHasClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteHasClass(element, selector) {$/;"	function	line:2973
+jqLiteRemoveClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteRemoveClass(element, cssClasses) {$/;"	function	line:2979
+jqLiteRemoveClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteRemoveClass(element, cssClasses) {$/;"	function	line:2979
+jqLiteAddClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteAddClass(element, cssClasses) {$/;"	function	line:2991
+jqLiteAddClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteAddClass(element, cssClasses) {$/;"	function	line:2991
+jqLiteAddNodes	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteAddNodes(root, elements) {$/;"	function	line:3008
+jqLiteAddNodes	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteAddNodes(root, elements) {$/;"	function	line:3008
+jqLiteController	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteController(element, name) {$/;"	function	line:3034
+jqLiteController	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteController(element, name) {$/;"	function	line:3034
+jqLiteInheritedData	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteInheritedData(element, name, value) {$/;"	function	line:3038
+jqLiteInheritedData	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteInheritedData(element, name, value) {$/;"	function	line:3038
+jqLiteEmpty	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteEmpty(element) {$/;"	function	line:3058
+jqLiteEmpty	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteEmpty(element) {$/;"	function	line:3058
+jqLiteRemove	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteRemove(element, keepData) {$/;"	function	line:3065
+jqLiteRemove	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteRemove(element, keepData) {$/;"	function	line:3065
+jqLiteDocumentLoaded	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteDocumentLoaded(action, win) {$/;"	function	line:3072
+jqLiteDocumentLoaded	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function jqLiteDocumentLoaded(action, win) {$/;"	function	line:3072
+ready	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  ready: function(fn) {$/;"	function	line:3089
+trigger	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function trigger() {$/;"	function	line:3092
+function.trigger	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function trigger() {$/;"	function	line:3092
+toString	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  toString: function() {$/;"	function	line:3109
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    forEach(this, function(e) { value.push('' + e);});$/;"	function	line:3111
+eq	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  eq: function(index) {$/;"	function	line:3115
+ALIASED_ATTR.ngMinlength	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  'ngMinlength': 'minlength',$/;"	property	line:3139
+ALIASED_ATTR.ngMaxlength	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  'ngMaxlength': 'maxlength',$/;"	property	line:3140
+ALIASED_ATTR.ngMin	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  'ngMin': 'min',$/;"	property	line:3141
+ALIASED_ATTR.ngMax	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  'ngMax': 'max',$/;"	property	line:3142
+ALIASED_ATTR.ngPattern	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  'ngPattern': 'pattern'$/;"	property	line:3143
+getBooleanAttrName	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function getBooleanAttrName(element, name) {$/;"	function	line:3146
+getBooleanAttrName	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function getBooleanAttrName(element, name) {$/;"	function	line:3146
+getAliasedAttrName	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function getAliasedAttrName(name) {$/;"	function	line:3154
+getAliasedAttrName	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function getAliasedAttrName(name) {$/;"	function	line:3154
+scope	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  scope: function(element) {$/;"	function	line:3170
+isolateScope	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  isolateScope: function(element) {$/;"	function	line:3175
+injector	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  injector: function(element) {$/;"	function	line:3182
+removeAttr	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  removeAttr: function(element, name) {$/;"	function	line:3186
+css	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  css: function(element, name, value) {$/;"	function	line:3192
+attr	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  attr: function(element, name, value) {$/;"	function	line:3202
+prop	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  prop: function(element, name, value) {$/;"	function	line:3234
+getText	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function getText(element, value) {$/;"	function	line:3246
+val	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  val: function(element, value) {$/;"	function	line:3255
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        forEach(element.options, function(option) {$/;"	function	line:3259
+html	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  html: function(element, value) {$/;"	function	line:3271
+createEventHandler	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function createEventHandler(element, events) {$/;"	function	line:3331
+eventHandler	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  var eventHandler = function(event, type) {$/;"	function	line:3332
+isDefaultPrevented	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    event.isDefaultPrevented = function() {$/;"	function	line:3334
+createEventHandler.event.isDefaultPrevented	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    event.isDefaultPrevented = function() {$/;"	function	line:3334
+stopImmediatePropagation	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      event.stopImmediatePropagation = function() {$/;"	function	line:3345
+event.stopImmediatePropagation	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      event.stopImmediatePropagation = function() {$/;"	function	line:3345
+createEventHandler.eventHandler	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  var eventHandler = function(event, type) {$/;"	function	line:3332
+isImmediatePropagationStopped	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    event.isImmediatePropagationStopped = function() {$/;"	function	line:3358
+event.isImmediatePropagationStopped	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    event.isImmediatePropagationStopped = function() {$/;"	function	line:3358
+createEventHandler	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function createEventHandler(element, events) {$/;"	function	line:3331
+defaultHandlerWrapper	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function defaultHandlerWrapper(element, event, handler) {$/;"	function	line:3383
+defaultHandlerWrapper	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function defaultHandlerWrapper(element, event, handler) {$/;"	function	line:3383
+specialMouseHandlerWrapper	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function specialMouseHandlerWrapper(target, event, handler) {$/;"	function	line:3387
+specialMouseHandlerWrapper	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function specialMouseHandlerWrapper(target, event, handler) {$/;"	function	line:3387
+jqLiteOn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  on: function jqLiteOn(element, type, fn, unsupported) {$/;"	function	line:3407
+addHandler	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    var addHandler = function(type, specialHandlerWrapper, noEventListener) {$/;"	function	line:3427
+one	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  one: function(element, type, fn) {$/;"	function	line:3454
+onFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    element.on(type, function onFn() {$/;"	function	line:3460
+replaceWith	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  replaceWith: function(element, replaceNode) {$/;"	function	line:3467
+children	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  children: function(element) {$/;"	function	line:3480
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    forEach(element.childNodes, function(element) {$/;"	function	line:3482
+contents	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  contents: function(element) {$/;"	function	line:3490
+append	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  append: function(element, node) {$/;"	function	line:3494
+prepend	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  prepend: function(element, node) {$/;"	function	line:3506
+wrap	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  wrap: function(element, wrapNode) {$/;"	function	line:3515
+detach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  detach: function(element) {$/;"	function	line:3521
+after	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  after: function(element, newElement) {$/;"	function	line:3525
+toggleClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  toggleClass: function(element, selector, condition) {$/;"	function	line:3539
+parent	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  parent: function(element) {$/;"	function	line:3551
+next	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  next: function(element) {$/;"	function	line:3556
+find	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  find: function(element, selector) {$/;"	function	line:3560
+triggerHandler	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  triggerHandler: function(element, event, extraParameters) {$/;"	function	line:3570
+preventDefault	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        preventDefault: function() { this.defaultPrevented = true; },$/;"	function	line:3581
+isDefaultPrevented	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        isDefaultPrevented: function() { return this.defaultPrevented === true; },$/;"	function	line:3582
+stopImmediatePropagation	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        stopImmediatePropagation: function() { this.immediatePropagationStopped = true; },$/;"	function	line:3583
+isImmediatePropagationStopped	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        isImmediatePropagationStopped: function() { return this.immediatePropagationStopped === true; },$/;"	function	line:3584
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      forEach(eventFnsCopy, function(fn) {$/;"	function	line:3599
+$$jqLiteProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $$jqLiteProvider() {$/;"	function	line:3634
+$$jqLite	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.$get = function $$jqLite() {$/;"	function	line:3635
+$$jqLiteProvider.$get	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.$get = function $$jqLite() {$/;"	method	line:3635
+$$jqLiteProvider.$$jqLite	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.$get = function $$jqLite() {$/;"	function	line:3635
+hasClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      hasClass: function(node, classes) {$/;"	function	line:3637
+addClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      addClass: function(node, classes) {$/;"	function	line:3641
+removeClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      removeClass: function(node, classes) {$/;"	function	line:3645
+$$jqLiteProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $$jqLiteProvider() {$/;"	class	line:3634
+hashKey	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function hashKey(obj, nextUidFn) {$/;"	function	line:3665
+hashKey	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function hashKey(obj, nextUidFn) {$/;"	function	line:3665
+HashMap	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function HashMap(array, isolatedUid) {$/;"	function	line:3688
+nextUid	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    this.nextUid = function() {$/;"	function	line:3691
+this.nextUid	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    this.nextUid = function() {$/;"	method	line:3691
+HashMap	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function HashMap(array, isolatedUid) {$/;"	function	line:3688
+HashMap	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^HashMap.prototype = {$/;"	class	line:3697
+put	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  put: function(key, value) {$/;"	function	line:3703
+HashMap.put	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  put: function(key, value) {$/;"	method	line:3703
+get	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  get: function(key) {$/;"	function	line:3711
+HashMap.get	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  get: function(key) {$/;"	method	line:3711
+remove	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  remove: function(key) {$/;"	function	line:3719
+HashMap.remove	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  remove: function(key) {$/;"	method	line:3719
+anonFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function anonFn(fn) {$/;"	function	line:3800
+anonFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function anonFn(fn) {$/;"	function	line:3800
+annotate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function annotate(fn, strictDi, name) {$/;"	function	line:3811
+annotate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function annotate(fn, strictDi, name) {$/;"	function	line:3811
+explicit	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^ *   function explicit(serviceA) {};$/;"	function	line:3880
+MyController	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^ *   function MyController($scope, $route) {$/;"	function	line:3972
+EventTrackerProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^ *  function EventTrackerProvider() {$/;"	function	line:4120
+inject	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^ *    it('tracks events', inject(function(eventTracker) {$/;"	function	line:4160
+inject	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^ *    it('saves to the tracking url', inject(function(eventTracker, $http) {$/;"	function	line:4165
+ping	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^ *     return function ping() {$/;"	function	line:4198
+createInjector	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function createInjector(modulesToLoad, strictDi) {$/;"	function	line:4360
+createInjector	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function createInjector(modulesToLoad, strictDi) {$/;"	function	line:4360
+createInternalInjector	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^          createInternalInjector(providerCache, function(serviceName, caller) {$/;"	function	line:4377
+createInternalInjector	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^          createInternalInjector(instanceCache, function(serviceName, caller) {$/;"	function	line:4385
+supportObject	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function supportObject(delegate) {$/;"	function	line:4399
+supportObject	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function supportObject(delegate) {$/;"	function	line:4399
+provider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function provider(name, provider_) {$/;"	function	line:4409
+provider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function provider(name, provider_) {$/;"	function	line:4409
+enforceReturnValue	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function enforceReturnValue(name, factory) {$/;"	function	line:4420
+enforcedReturnValue	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    return function enforcedReturnValue() {$/;"	function	line:4421
+enforceReturnValue	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function enforceReturnValue(name, factory) {$/;"	function	line:4420
+factory	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function factory(name, factoryFn, enforce) {$/;"	function	line:4430
+factory	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function factory(name, factoryFn, enforce) {$/;"	function	line:4430
+service	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function service(name, constructor) {$/;"	function	line:4436
+service	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function service(name, constructor) {$/;"	function	line:4436
+value	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function value(name, val) { return factory(name, valueFn(val), false); }$/;"	function	line:4442
+value	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function value(name, val) { return factory(name, valueFn(val), false); }$/;"	function	line:4442
+constant	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function constant(name, value) {$/;"	function	line:4444
+constant	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function constant(name, value) {$/;"	function	line:4444
+decorator	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function decorator(serviceName, decorFn) {$/;"	function	line:4450
+$get	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    origProvider.$get = function() {$/;"	function	line:4454
+origProvider.$get	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    origProvider.$get = function() {$/;"	function	line:4454
+decorator	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function decorator(serviceName, decorFn) {$/;"	function	line:4450
+loadModules	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function loadModules(modulesToLoad) {$/;"	function	line:4463
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    forEach(modulesToLoad, function(module) {$/;"	function	line:4466
+runInvokeQueue	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function runInvokeQueue(queue) {$/;"	function	line:4470
+loadModules	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function loadModules(modulesToLoad) {$/;"	function	line:4463
+createInternalInjector	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function createInternalInjector(cache, factory) {$/;"	function	line:4516
+getService	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function getService(serviceName, caller) {$/;"	function	line:4518
+createInternalInjector.getService	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function getService(serviceName, caller) {$/;"	function	line:4518
+invoke	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function invoke(fn, self, locals, serviceName) {$/;"	function	line:4541
+createInternalInjector.invoke	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function invoke(fn, self, locals, serviceName) {$/;"	function	line:4541
+instantiate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function instantiate(Type, locals, serviceName) {$/;"	function	line:4573
+createInternalInjector.instantiate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function instantiate(Type, locals, serviceName) {$/;"	function	line:4573
+has	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      has: function(name) {$/;"	function	line:4588
+createInternalInjector	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function createInternalInjector(cache, factory) {$/;"	function	line:4516
+$AnchorScrollProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $AnchorScrollProvider() {$/;"	function	line:4605
+disableAutoScrolling	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.disableAutoScrolling = function() {$/;"	function	line:4622
+$AnchorScrollProvider.disableAutoScrolling	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.disableAutoScrolling = function() {$/;"	method	line:4622
+gotoBottom	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^               $scope.gotoBottom = function() {$/;"	function	line:4682
+gotoAnchor	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^               $scope.gotoAnchor = function(x) {$/;"	function	line:4728
+getFirstAnchor	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function getFirstAnchor(list) {$/;"	function	line:4773
+$AnchorScrollProvider.function.Array	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      Array.prototype.some.call(list, function(element) {$/;"	class	line:4775
+$AnchorScrollProvider.function.$AnchorScrollProvider.function.Array.some	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      Array.prototype.some.call(list, function(element) {$/;"	method	line:4775
+$AnchorScrollProvider.function.getFirstAnchor	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function getFirstAnchor(list) {$/;"	function	line:4773
+getYOffset	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function getYOffset() {$/;"	function	line:4784
+$AnchorScrollProvider.function.getYOffset	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function getYOffset() {$/;"	function	line:4784
+scrollTo	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function scrollTo(elem) {$/;"	function	line:4805
+$AnchorScrollProvider.function.scrollTo	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function scrollTo(elem) {$/;"	function	line:4805
+scroll	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function scroll(hash) {$/;"	function	line:4833
+$AnchorScrollProvider.function.scroll	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function scroll(hash) {$/;"	function	line:4833
+autoScrollWatch	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      $rootScope.$watch(function autoScrollWatch() {return $location.hash();},$/;"	function	line:4853
+autoScrollWatchAction	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        function autoScrollWatchAction(newVal, oldVal) {$/;"	function	line:4854
+jqLiteDocumentLoaded	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^          jqLiteDocumentLoaded(function() {$/;"	function	line:4858
+$AnchorScrollProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $AnchorScrollProvider() {$/;"	class	line:4605
+ELEMENT_NODE	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var ELEMENT_NODE = 1;$/;"	variable	line:4869
+NG_ANIMATE_CLASSNAME	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var NG_ANIMATE_CLASSNAME = 'ng-animate';$/;"	variable	line:4870
+mergeClasses	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function mergeClasses(a,b) {$/;"	function	line:4872
+mergeClasses	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function mergeClasses(a,b) {$/;"	function	line:4872
+extractElementNode	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function extractElementNode(element) {$/;"	function	line:4881
+extractElementNode	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function extractElementNode(element) {$/;"	function	line:4881
+splitClasses	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function splitClasses(classes) {$/;"	function	line:4890
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  forEach(classes, function(klass) {$/;"	function	line:4898
+splitClasses	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function splitClasses(classes) {$/;"	function	line:4890
+prepareAnimateOptions	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function prepareAnimateOptions(options) {$/;"	function	line:4915
+prepareAnimateOptions	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function prepareAnimateOptions(options) {$/;"	function	line:4915
+$$CoreAnimateJsProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var $$CoreAnimateJsProvider = function() {$/;"	function	line:4921
+$get	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.$get = function() {};$/;"	function	line:4922
+$$CoreAnimateJsProvider.$get	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.$get = function() {};$/;"	method	line:4922
+$$CoreAnimateJsProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var $$CoreAnimateJsProvider = function() {$/;"	class	line:4921
+$$CoreAnimateQueueProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var $$CoreAnimateQueueProvider = function() {$/;"	function	line:4927
+push	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      push: function(element, event, options, domOperation) {$/;"	function	line:4939
+$$CoreAnimateQueueProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var $$CoreAnimateQueueProvider = function() {$/;"	class	line:4927
+updateData	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function updateData(data, classes, value) {$/;"	function	line:4960
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        forEach(classes, function(className) {$/;"	function	line:4965
+updateData	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function updateData(data, classes, value) {$/;"	function	line:4960
+handleCSSClassChanges	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function handleCSSClassChanges() {$/;"	function	line:4975
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      forEach(postDigestElements, function(element) {$/;"	function	line:4976
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^          forEach(data, function(status, className) {$/;"	function	line:4982
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^          forEach(element, function(elm) {$/;"	function	line:4993
+handleCSSClassChanges	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function handleCSSClassChanges() {$/;"	function	line:4975
+addRemoveClassesPostDigest	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function addRemoveClassesPostDigest(element, add, remove) {$/;"	function	line:5004
+addRemoveClassesPostDigest	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function addRemoveClassesPostDigest(element, add, remove) {$/;"	function	line:5004
+move	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^   *   - enter, leave, move: function(element, doneFunction, options)$/;"	function	line:5057
+endFunction	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^   *       return function endFunction(wasCancelled) {$/;"	function	line:5068
+register	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.register = function(name, factory) {$/;"	function	line:5079
+this.register	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.register = function(name, factory) {$/;"	method	line:5079
+classNameFilter	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.classNameFilter = function(expression) {$/;"	function	line:5103
+this.classNameFilter	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.classNameFilter = function(expression) {$/;"	method	line:5103
+domInsert	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function domInsert(element, parentElement, afterElement) {$/;"	function	line:5118
+this.function.domInsert	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function domInsert(element, parentElement, afterElement) {$/;"	function	line:5118
+callback	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^       *    function callback(element, phase) {$/;"	function	line:5165
+cancel	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      cancel: function(runner) {$/;"	function	line:5265
+enter	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      enter: function(element, parent, after, options) {$/;"	function	line:5287
+move	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      move: function(element, parent, after, options) {$/;"	function	line:5313
+leave	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      leave: function(element, options) {$/;"	function	line:5334
+addClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      addClass: function(element, className, options) {$/;"	function	line:5358
+removeClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      removeClass: function(element, className, options) {$/;"	function	line:5382
+setClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      setClass: function(element, add, remove, options) {$/;"	function	line:5407
+animate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      animate: function(element, from, to, className, options) {$/;"	function	line:5448
+$$AnimateAsyncRunFactoryProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var $$AnimateAsyncRunFactoryProvider = function() {$/;"	function	line:5461
+waitForTick	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function waitForTick(fn) {$/;"	function	line:5465
+$$rAF	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      $$rAF(function() {$/;"	function	line:5468
+$$AnimateAsyncRunFactoryProvider.function.waitForTick	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function waitForTick(fn) {$/;"	function	line:5465
+$$AnimateAsyncRunFactoryProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var $$AnimateAsyncRunFactoryProvider = function() {$/;"	class	line:5461
+waitForTick	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      waitForTick(function() {$/;"	function	line:5478
+$$AnimateRunnerFactoryProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var $$AnimateRunnerFactoryProvider = function() {$/;"	function	line:5488
+chain	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    AnimateRunner.chain = function(chain, callback) {$/;"	function	line:5496
+next	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function next() {$/;"	function	line:5500
+AnimateRunner.chain.next	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function next() {$/;"	function	line:5500
+$$AnimateRunnerFactoryProvider.AnimateRunner.chain	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    AnimateRunner.chain = function(chain, callback) {$/;"	function	line:5496
+$$AnimateRunnerFactoryProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var $$AnimateRunnerFactoryProvider = function() {$/;"	class	line:5488
+all	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    AnimateRunner.all = function(runners, callback) {$/;"	function	line:5517
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      forEach(runners, function(runner) {$/;"	function	line:5520
+onProgress	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function onProgress(response) {$/;"	function	line:5524
+AnimateRunner.all.onProgress	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function onProgress(response) {$/;"	function	line:5524
+AnimateRunner.all	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    AnimateRunner.all = function(runners, callback) {$/;"	function	line:5517
+AnimateRunner	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function AnimateRunner(host) {$/;"	function	line:5532
+timeoutTick	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      var timeoutTick = function(fn) {$/;"	function	line:5536
+AnimateRunner.timeoutTick	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      var timeoutTick = function(fn) {$/;"	method	line:5536
+_tick	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      this._tick = function(fn) {$/;"	function	line:5541
+AnimateRunner._tick	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      this._tick = function(fn) {$/;"	method	line:5541
+AnimateRunner	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function AnimateRunner(host) {$/;"	class	line:5532
+setHost	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      setHost: function(host) {$/;"	function	line:5556
+AnimateRunner.setHost	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      setHost: function(host) {$/;"	method	line:5556
+done	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      done: function(fn) {$/;"	function	line:5560
+AnimateRunner.done	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      done: function(fn) {$/;"	method	line:5560
+AnimateRunner.progress	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      progress: noop,$/;"	property	line:5568
+getPromise	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      getPromise: function() {$/;"	function	line:5570
+AnimateRunner.getPromise	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      getPromise: function() {$/;"	method	line:5570
+then	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      then: function(resolveHandler, rejectHandler) {$/;"	function	line:5582
+AnimateRunner.then	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      then: function(resolveHandler, rejectHandler) {$/;"	method	line:5582
+AnimateRunner.catch	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      'catch': function(handler) {$/;"	method	line:5586
+AnimateRunner.finally	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      'finally': function(handler) {$/;"	method	line:5590
+pause	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      pause: function() {$/;"	function	line:5594
+AnimateRunner.pause	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      pause: function() {$/;"	method	line:5594
+resume	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      resume: function() {$/;"	function	line:5600
+AnimateRunner.resume	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      resume: function() {$/;"	method	line:5600
+end	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      end: function() {$/;"	function	line:5606
+AnimateRunner.end	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      end: function() {$/;"	method	line:5606
+cancel	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      cancel: function() {$/;"	function	line:5613
+AnimateRunner.cancel	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      cancel: function() {$/;"	method	line:5613
+complete	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      complete: function(response) {$/;"	function	line:5620
+AnimateRunner.complete	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      complete: function(response) {$/;"	method	line:5620
+_resolve	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      _resolve: function(response) {$/;"	function	line:5630
+AnimateRunner._resolve	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      _resolve: function(response) {$/;"	method	line:5630
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^          forEach(this._doneCallbacks, function(fn) {$/;"	function	line:5632
+$CoreAnimateCssProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var $CoreAnimateCssProvider = function() {$/;"	function	line:5656
+run	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function run() {$/;"	function	line:5688
+$$rAF	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        $$rAF(function() {$/;"	function	line:5689
+$CoreAnimateCssProvider.run	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function run() {$/;"	function	line:5688
+applyAnimationContents	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function applyAnimationContents() {$/;"	function	line:5699
+$CoreAnimateCssProvider.applyAnimationContents	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function applyAnimationContents() {$/;"	function	line:5699
+$CoreAnimateCssProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var $CoreAnimateCssProvider = function() {$/;"	class	line:5656
+Browser	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function Browser(window, document, $log, $sniffer) {$/;"	function	line:5740
+$$incOutstandingRequestCount	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  self.$$incOutstandingRequestCount = function() { outstandingRequestCount++; };$/;"	function	line:5756
+self.$$incOutstandingRequestCount	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  self.$$incOutstandingRequestCount = function() { outstandingRequestCount++; };$/;"	function	line:5756
+completeOutstandingRequest	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function completeOutstandingRequest(fn) {$/;"	function	line:5762
+Browser.completeOutstandingRequest	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function completeOutstandingRequest(fn) {$/;"	function	line:5762
+getHash	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function getHash(url) {$/;"	function	line:5779
+Browser.getHash	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function getHash(url) {$/;"	function	line:5779
+notifyWhenNoOutstandingRequests	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  self.notifyWhenNoOutstandingRequests = function(callback) {$/;"	function	line:5790
+self.notifyWhenNoOutstandingRequests	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  self.notifyWhenNoOutstandingRequests = function(callback) {$/;"	function	line:5790
+url	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  self.url = function(url, replace, state) {$/;"	function	line:5830
+self.url	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  self.url = function(url, replace, state) {$/;"	function	line:5830
+state	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  self.state = function() {$/;"	function	line:5900
+self.state	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  self.state = function() {$/;"	function	line:5900
+cacheStateAndFireUrlChange	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function cacheStateAndFireUrlChange() {$/;"	function	line:5907
+Browser.cacheStateAndFireUrlChange	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function cacheStateAndFireUrlChange() {$/;"	function	line:5907
+getCurrentState	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function getCurrentState() {$/;"	function	line:5913
+Browser.getCurrentState	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function getCurrentState() {$/;"	function	line:5913
+cacheState	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function cacheState() {$/;"	function	line:5923
+Browser.cacheState	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function cacheState() {$/;"	function	line:5923
+fireUrlChange	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function fireUrlChange() {$/;"	function	line:5935
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    forEach(urlChangeListeners, function(listener) {$/;"	function	line:5942
+Browser.fireUrlChange	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function fireUrlChange() {$/;"	function	line:5935
+onUrlChange	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  self.onUrlChange = function(callback) {$/;"	function	line:5968
+self.onUrlChange	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  self.onUrlChange = function(callback) {$/;"	function	line:5968
+$$applicationDestroyed	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  self.$$applicationDestroyed = function() {$/;"	function	line:5993
+self.$$applicationDestroyed	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  self.$$applicationDestroyed = function() {$/;"	function	line:5993
+baseHref	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  self.baseHref = function() {$/;"	function	line:6017
+self.baseHref	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  self.baseHref = function() {$/;"	function	line:6017
+defer	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  self.defer = function(fn, delay) {$/;"	function	line:6036
+self.defer	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  self.defer = function(fn, delay) {$/;"	function	line:6036
+cancel	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  self.defer.cancel = function(deferId) {$/;"	function	line:6058
+self.defer.cancel	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  self.defer.cancel = function(deferId) {$/;"	function	line:6058
+Browser	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function Browser(window, document, $log, $sniffer) {$/;"	function	line:5740
+$BrowserProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $BrowserProvider() {$/;"	function	line:6070
+$BrowserProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $BrowserProvider() {$/;"	class	line:6070
+controller	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^         controller('CacheController', ['$scope', '$cacheFactory', function($scope, $cacheFactory) {$/;"	function	line:6140
+put	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^           $scope.put = function(key, value) {$/;"	function	line:6143
+$CacheFactoryProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $CacheFactoryProvider() {$/;"	function	line:6158
+$get	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.$get = function() {$/;"	function	line:6160
+$CacheFactoryProvider.$get	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.$get = function() {$/;"	method	line:6160
+cacheFactory	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function cacheFactory(cacheId, options) {$/;"	function	line:6163
+inject	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^       *  it('should behave like a cache', inject(function(superCache) {$/;"	function	line:6195
+put	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        put: function(key, value) {$/;"	function	line:6235
+return.put	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        put: function(key, value) {$/;"	method	line:6235
+$CacheFactoryProvider.$CacheFactoryProvider.$get.cacheFactory	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function cacheFactory(cacheId, options) {$/;"	function	line:6163
+get	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        get: function(key) {$/;"	function	line:6264
+$CacheFactoryProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $CacheFactoryProvider() {$/;"	class	line:6158
+remove	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        remove: function(key) {$/;"	function	line:6287
+removeAll	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        removeAll: function() {$/;"	function	line:6315
+destroy	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        destroy: function() {$/;"	function	line:6332
+info	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        info: function() {$/;"	function	line:6356
+refresh	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function refresh(entry) {$/;"	function	line:6365
+refresh	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function refresh(entry) {$/;"	function	line:6365
+link	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function link(nextEntry, prevEntry) {$/;"	function	line:6384
+link	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function link(nextEntry, prevEntry) {$/;"	function	line:6384
+info	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    cacheFactory.info = function() {$/;"	function	line:6402
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      forEach(caches, function(cache, cacheId) {$/;"	function	line:6404
+cacheFactory.info	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    cacheFactory.info = function() {$/;"	function	line:6402
+get	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    cacheFactory.get = function(cacheId) {$/;"	function	line:6421
+cacheFactory.get	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    cacheFactory.get = function(cacheId) {$/;"	function	line:6421
+$TemplateCacheProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $TemplateCacheProvider() {$/;"	function	line:6473
+$TemplateCacheProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $TemplateCacheProvider() {$/;"	class	line:6473
+factory	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^ *   myModule.directive('directiveName', function factory(injectables) {$/;"	function	line:6543
+compile	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^ *       compile: function compile(tElement, tAttrs, transclude) {$/;"	function	line:6557
+preLink	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^ *           pre: function preLink(scope, iElement, iAttrs, controller) { ... },$/;"	function	line:6559
+postLink	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^ *           post: function postLink(scope, iElement, iAttrs, controller) { ... }$/;"	function	line:6560
+postLink	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^ *         \/\/ return function postLink( ... ) { ... }$/;"	function	line:6563
+preLink	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^ *       \/\/  pre: function preLink(scope, iElement, iAttrs, controller) { ... },$/;"	function	line:6567
+postLink	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^ *       \/\/  post: function postLink(scope, iElement, iAttrs, controller) { ... }$/;"	function	line:6568
+postLink	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^ *       \/\/ link: function postLink( ... ) { ... }$/;"	function	line:6571
+factory	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^ *   myModule.directive('directiveName', function factory(injectables) {$/;"	function	line:6586
+postLink	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^ *       link: function postLink(scope, iElement, iAttrs) { ... }$/;"	function	line:6588
+postLink	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^ *     \/\/ return function postLink(scope, iElement, iAttrs) { ... }$/;"	function	line:6592
+compile	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^ *   function compile(tElement, tAttrs, transclude) { ... }$/;"	function	line:6844
+link	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^ *   function link(scope, iElement, iAttrs, controller, transcludeFn) { ... }$/;"	function	line:6895
+linkingFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^ * function linkingFn(scope, elm, attrs, ctrl) {$/;"	function	line:7083
+it	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^     it('should auto compile', function() {$/;"	function	line:7145
+$CompileProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $CompileProvider($provide, $$sanitizeUriProvider) {$/;"	function	line:7244
+parseIsolateBindings	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function parseIsolateBindings(scope, directiveName, isController) {$/;"	function	line:7258
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    forEach(scope, function(definition, scopeName) {$/;"	function	line:7263
+$CompileProvider.parseIsolateBindings	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function parseIsolateBindings(scope, directiveName, isController) {$/;"	function	line:7258
+parseDirectiveBindings	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function parseDirectiveBindings(directive, directiveName) {$/;"	function	line:7293
+$CompileProvider.parseDirectiveBindings.bindings.isolateScope	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      isolateScope: null,$/;"	property	line:7295
+$CompileProvider.parseDirectiveBindings.bindings.bindToController	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      bindToController: null$/;"	property	line:7296
+$CompileProvider.parseDirectiveBindings	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function parseDirectiveBindings(directive, directiveName) {$/;"	function	line:7293
+assertValidDirectiveName	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function assertValidDirectiveName(name) {$/;"	function	line:7330
+$CompileProvider.assertValidDirectiveName	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function assertValidDirectiveName(name) {$/;"	function	line:7330
+registerDirective	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^   this.directive = function registerDirective(name, directiveFactory) {$/;"	function	line:7357
+$CompileProvider.directive	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^   this.directive = function registerDirective(name, directiveFactory) {$/;"	method	line:7357
+$CompileProvider.registerDirective	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^   this.directive = function registerDirective(name, directiveFactory) {$/;"	function	line:7357
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^            forEach(hasDirectives[name], function(directiveFactory, index) {$/;"	function	line:7367
+aHrefSanitizationWhitelist	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.aHrefSanitizationWhitelist = function(regexp) {$/;"	function	line:7417
+$CompileProvider.aHrefSanitizationWhitelist	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.aHrefSanitizationWhitelist = function(regexp) {$/;"	method	line:7417
+imgSrcSanitizationWhitelist	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.imgSrcSanitizationWhitelist = function(regexp) {$/;"	function	line:7447
+$CompileProvider.imgSrcSanitizationWhitelist	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.imgSrcSanitizationWhitelist = function(regexp) {$/;"	method	line:7447
+debugInfoEnabled	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.debugInfoEnabled = function(enabled) {$/;"	function	line:7479
+$CompileProvider.debugInfoEnabled	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.debugInfoEnabled = function(enabled) {$/;"	method	line:7479
+Attributes	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    var Attributes = function(element, attributesToCopy) {$/;"	function	line:7493
+$CompileProvider.var.Attributes	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    var Attributes = function(element, attributesToCopy) {$/;"	class	line:7493
+Attributes	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    Attributes.prototype = {$/;"	class	line:7509
+Attributes.$normalize	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      $normalize: directiveNormalize,$/;"	property	line:7525
+$addClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      $addClass: function(classVal) {$/;"	function	line:7539
+Attributes.$addClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      $addClass: function(classVal) {$/;"	method	line:7539
+$removeClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      $removeClass: function(classVal) {$/;"	function	line:7556
+Attributes.$removeClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      $removeClass: function(classVal) {$/;"	method	line:7556
+$updateClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      $updateClass: function(newClasses, oldClasses) {$/;"	function	line:7574
+Attributes.$updateClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      $updateClass: function(newClasses, oldClasses) {$/;"	method	line:7574
+$set	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      $set: function(key, value, writeAttr, attrName) {$/;"	function	line:7595
+Attributes.$set	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      $set: function(key, value, writeAttr, attrName) {$/;"	method	line:7595
+$observe	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      $observe: function(key, fn) {$/;"	function	line:7707
+Attributes.$observe	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      $observe: function(key, fn) {$/;"	method	line:7707
+$CompileProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $CompileProvider($provide, $$sanitizeUriProvider) {$/;"	class	line:7244
+safeAddClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function safeAddClass($element, className) {$/;"	function	line:7727
+safeAddClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function safeAddClass($element, className) {$/;"	function	line:7727
+denormalizeTemplate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^            : function denormalizeTemplate(template) {$/;"	function	line:7741
+$$addBindingInfo	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    compile.$$addBindingInfo = debugInfoEnabled ? function $$addBindingInfo($element, binding) {$/;"	function	line:7747
+$$addBindingClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    compile.$$addBindingClass = debugInfoEnabled ? function $$addBindingClass($element) {$/;"	function	line:7759
+$$addScopeInfo	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    compile.$$addScopeInfo = debugInfoEnabled ? function $$addScopeInfo($element, scope, isolated, noTemplate) {$/;"	function	line:7763
+$$addScopeClass	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    compile.$$addScopeClass = debugInfoEnabled ? function $$addScopeClass($element, isolated) {$/;"	function	line:7768
+publicLinkFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      return function publicLinkFn(scope, cloneConnectFn, options) {$/;"	function	line:7801
+compile	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function compile($compileNodes, transcludeFn, maxPriority, ignoreDirective,$/;"	function	line:7776
+detectNamespaceForChildElements	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function detectNamespaceForChildElements(parentElement) {$/;"	function	line:7860
+detectNamespaceForChildElements	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function detectNamespaceForChildElements(parentElement) {$/;"	function	line:7860
+compositeLinkFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function compositeLinkFn(scope, nodeList, $rootElement, parentBoundTranscludeFn) {$/;"	function	line:7928
+compileNodes.compositeLinkFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function compositeLinkFn(scope, nodeList, $rootElement, parentBoundTranscludeFn) {$/;"	function	line:7928
+compileNodes	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function compileNodes(nodeList, transcludeFn, $rootElement, maxPriority, ignoreDirective,$/;"	function	line:7885
+createBoundTranscludeFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function createBoundTranscludeFn(scope, transcludeFn, previousBoundTranscludeFn) {$/;"	function	line:7984
+boundTranscludeFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      var boundTranscludeFn = function(transcludedScope, cloneFn, controllers, futureParentElement, containingScope) {$/;"	function	line:7986
+createBoundTranscludeFn.boundTranscludeFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      var boundTranscludeFn = function(transcludedScope, cloneFn, controllers, futureParentElement, containingScope) {$/;"	function	line:7986
+createBoundTranscludeFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function createBoundTranscludeFn(scope, transcludeFn, previousBoundTranscludeFn) {$/;"	function	line:7984
+collectDirectives	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function collectDirectives(node, directives, attrs, maxPriority, ignoreDirective) {$/;"	function	line:8013
+switch	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      switch (nodeType) {$/;"	function	line:8019
+collectDirectives	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function collectDirectives(node, directives, attrs, maxPriority, ignoreDirective) {$/;"	function	line:8013
+groupScan	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function groupScan(node, attrStart, attrEnd) {$/;"	function	line:8119
+groupScan	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function groupScan(node, attrStart, attrEnd) {$/;"	function	line:8119
+groupElementsLinkFnWrapper	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function groupElementsLinkFnWrapper(linkFn, attrStart, attrEnd) {$/;"	function	line:8151
+groupElementsLinkFnWrapper	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function groupElementsLinkFnWrapper(linkFn, attrStart, attrEnd) {$/;"	function	line:8151
+var.newTemplateAttrs.$attr	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^            var newTemplateAttrs = {$attr: {}};$/;"	property	line:8320
+applyDirectivesToNode	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function applyDirectivesToNode(directives, compileNode, templateAttrs, transcludeFn,$/;"	function	line:8181
+addLinkFns	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function addLinkFns(pre, post, attrStart, attrEnd) {$/;"	function	line:8395
+addLinkFns	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function addLinkFns(pre, post, attrStart, attrEnd) {$/;"	function	line:8395
+getControllers	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function getControllers(directiveName, require, $element, elementControllers) {$/;"	function	line:8417
+getControllers	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function getControllers(directiveName, require, $element, elementControllers) {$/;"	function	line:8417
+setupControllers	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function setupControllers($element, attrs, transcludeFn, controllerDirectives, isolateScope, scope) {$/;"	function	line:8456
+var.locals.$scope	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^            $scope: directive === newIsolateScopeDirective || directive.$$isolateScope ? isolateScope : scope,$/;"	property	line:8461
+setupControllers	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function setupControllers($element, attrs, transcludeFn, controllerDirectives, isolateScope, scope) {$/;"	function	line:8456
+nodeLinkFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function nodeLinkFn(childLinkFn, scope, linkNode, $rootElement, boundTranscludeFn) {$/;"	function	line:8484
+controllersBoundTransclude	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        function controllersBoundTransclude(scope, cloneAttachFn, futureParentElement) {$/;"	function	line:8587
+nodeLinkFn.controllersBoundTransclude	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        function controllersBoundTransclude(scope, cloneAttachFn, futureParentElement) {$/;"	function	line:8587
+nodeLinkFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function nodeLinkFn(childLinkFn, scope, linkNode, $rootElement, boundTranscludeFn) {$/;"	function	line:8484
+markDirectiveScope	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function markDirectiveScope(directives, isolateScope, newScope) {$/;"	function	line:8614
+markDirectiveScope	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function markDirectiveScope(directives, isolateScope, newScope) {$/;"	function	line:8614
+addDirective	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function addDirective(tDirectives, name, location, maxPriority, ignoreDirective, startAttrName,$/;"	function	line:8634
+directiveIsMultiElement	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function directiveIsMultiElement(name) {$/;"	function	line:8673
+directiveIsMultiElement	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function directiveIsMultiElement(name) {$/;"	function	line:8673
+mergeTemplateAttributes	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function mergeTemplateAttributes(dst, src) {$/;"	function	line:8694
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      forEach(dst, function(value, key) {$/;"	function	line:8700
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      forEach(src, function(value, key) {$/;"	function	line:8710
+mergeTemplateAttributes	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function mergeTemplateAttributes(dst, src) {$/;"	function	line:8694
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^          forEach($rootElement, function(node, i) {$/;"	function	line:8786
+delayedNodeLinkFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      return function delayedNodeLinkFn(ignoreChildLinkFn, scope, node, rootElement, boundTranscludeFn) {$/;"	function	line:8826
+compileTemplateUrl	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function compileTemplateUrl(directives, $compileNode, tAttrs,$/;"	function	line:8728
+byPriority	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function byPriority(a, b) {$/;"	function	line:8847
+byPriority	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function byPriority(a, b) {$/;"	function	line:8847
+assertNoDuplicate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function assertNoDuplicate(what, previousDirective, directive, element) {$/;"	function	line:8854
+wrapModuleNameIfDefined	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function wrapModuleNameIfDefined(moduleName) {$/;"	function	line:8856
+assertNoDuplicate.wrapModuleNameIfDefined	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function wrapModuleNameIfDefined(moduleName) {$/;"	function	line:8856
+assertNoDuplicate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function assertNoDuplicate(what, previousDirective, directive, element) {$/;"	function	line:8854
+addTextInterpolateDirective	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function addTextInterpolateDirective(directives, text) {$/;"	function	line:8870
+textInterpolateCompileFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^          compile: function textInterpolateCompileFn(templateNode) {$/;"	function	line:8875
+textInterpolateLinkFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^            return function textInterpolateLinkFn(scope, node) {$/;"	function	line:8883
+interpolateFnWatchAction	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^              scope.$watch(interpolateFn, function interpolateFnWatchAction(value) {$/;"	function	line:8887
+addTextInterpolateDirective	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function addTextInterpolateDirective(directives, text) {$/;"	function	line:8870
+wrapTemplate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function wrapTemplate(type, template) {$/;"	function	line:8897
+switch	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      switch (type) {$/;"	function	line:8899
+wrapTemplate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function wrapTemplate(type, template) {$/;"	function	line:8897
+getTrustedContext	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function getTrustedContext(node, attrNormalizedName) {$/;"	function	line:8911
+getTrustedContext	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function getTrustedContext(node, attrNormalizedName) {$/;"	function	line:8911
+addAttrInterpolateDirective	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function addAttrInterpolateDirective(node, directives, value, name, allOrNothing) {$/;"	function	line:8926
+compile	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        compile: function() {$/;"	function	line:8944
+attrInterpolatePreLinkFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^              pre: function attrInterpolatePreLinkFn(scope, element, attr) {$/;"	function	line:8946
+interpolateFnWatchAction	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^                  $watch(interpolateFn, function interpolateFnWatchAction(newValue, oldValue) {$/;"	function	line:8976
+$watch	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^                  $watch(interpolateFn, function interpolateFnWatchAction(newValue, oldValue) {$/;"	function	line:8976
+addAttrInterpolateDirective	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function addAttrInterpolateDirective(node, directives, value, name, allOrNothing) {$/;"	function	line:8926
+replaceWith	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function replaceWith($rootElement, elementsToRemove, newNode) {$/;"	function	line:9006
+replaceWith	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function replaceWith($rootElement, elementsToRemove, newNode) {$/;"	function	line:9006
+cloneAndAnnotateFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function cloneAndAnnotateFn(fn, annotation) {$/;"	function	line:9082
+cloneAndAnnotateFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function cloneAndAnnotateFn(fn, annotation) {$/;"	function	line:9082
+invokeLinkFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function invokeLinkFn(linkFn, scope, $element, attrs, controllers, transcludeFn) {$/;"	function	line:9087
+invokeLinkFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function invokeLinkFn(linkFn, scope, $element, attrs, controllers, transcludeFn) {$/;"	function	line:9087
+initializeDirectiveBindings	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function initializeDirectiveBindings(scope, attrs, destination, bindings, directive) {$/;"	function	line:9098
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      forEach(bindings, function(definition, scopeName) {$/;"	function	line:9100
+switch	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        switch (mode) {$/;"	function	line:9107
+compare	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^              compare = function(a, b) { return a === b || (a !== a && b !== b); };$/;"	function	line:9142
+parentValueWatch	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^            var parentValueWatch = function parentValueWatch(parentValue) {$/;"	function	line:9152
+removeWatches	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      return removeWatchCollection.length && function removeWatches() {$/;"	function	line:9189
+initializeDirectiveBindings	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function initializeDirectiveBindings(scope, attrs, destination, bindings, directive) {$/;"	function	line:9098
+directiveNormalize	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function directiveNormalize(name) {$/;"	function	line:9203
+directiveNormalize	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function directiveNormalize(name) {$/;"	function	line:9203
+nodesetLinkingFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function nodesetLinkingFn($/;"	function	line:9252
+directiveLinkingFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function directiveLinkingFn($/;"	function	line:9259
+tokenDifference	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function tokenDifference(str1, str2) {$/;"	function	line:9267
+tokenDifference	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function tokenDifference(str1, str2) {$/;"	function	line:9267
+removeComments	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function removeComments(jqNodes) {$/;"	function	line:9283
+removeComments	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function removeComments(jqNodes) {$/;"	function	line:9283
+identifierForController	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function identifierForController(controller, ident) {$/;"	function	line:9304
+identifierForController	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function identifierForController(controller, ident) {$/;"	function	line:9304
+$ControllerProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $ControllerProvider() {$/;"	function	line:9323
+register	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.register = function(name, constructor) {$/;"	function	line:9335
+$ControllerProvider.register	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.register = function(name, constructor) {$/;"	method	line:9335
+allowGlobals	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.allowGlobals = function() {$/;"	function	line:9349
+$ControllerProvider.allowGlobals	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.allowGlobals = function() {$/;"	method	line:9349
+addIdentifier	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function addIdentifier(locals, identifier, instance, name) {$/;"	function	line:9459
+$ControllerProvider.addIdentifier	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function addIdentifier(locals, identifier, instance, name) {$/;"	function	line:9459
+$ControllerProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $ControllerProvider() {$/;"	class	line:9323
+$DocumentProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $DocumentProvider() {$/;"	function	line:9496
+$DocumentProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $DocumentProvider() {$/;"	class	line:9496
+$ExceptionHandlerProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $ExceptionHandlerProvider() {$/;"	function	line:9542
+$ExceptionHandlerProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $ExceptionHandlerProvider() {$/;"	class	line:9542
+$$ForceReflowProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var $$ForceReflowProvider = function() {$/;"	function	line:9550
+$$ForceReflowProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var $$ForceReflowProvider = function() {$/;"	class	line:9550
+APPLICATION_JSON	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var APPLICATION_JSON = 'application\/json';$/;"	variable	line:9573
+CONTENT_TYPE_APPLICATION_JSON.Content-Type	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var CONTENT_TYPE_APPLICATION_JSON = {'Content-Type': APPLICATION_JSON + ';charset=utf-8'};$/;"	property	line:9574
+var.JSON_ENDS.[	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  '[': \/]$\/,$/;"	property	line:9577
+$httpMinErrLegacyFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var $httpMinErrLegacyFn = function(method) {$/;"	function	line:9582
+serializeValue	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function serializeValue(v) {$/;"	function	line:9588
+$HttpParamSerializerProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $HttpParamSerializerProvider() {$/;"	function	line:9596
+$get	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.$get = function() {$/;"	function	line:9613
+ngParamSerializer	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    return function ngParamSerializer(params) {$/;"	function	line:9614
+forEachSorted	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      forEachSorted(params, function(value, key) {$/;"	function	line:9617
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^          forEach(value, function(v, k) {$/;"	function	line:9620
+$HttpParamSerializerJQLikeProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $HttpParamSerializerJQLikeProvider() {$/;"	function	line:9633
+$get	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.$get = function() {$/;"	function	line:9677
+jQueryLikeParamSerializer	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    return function jQueryLikeParamSerializer(params) {$/;"	function	line:9678
+serialize	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function serialize(toSerialize, prefix, topLevel) {$/;"	function	line:9684
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^          forEach(toSerialize, function(value, index) {$/;"	function	line:9687
+forEachSorted	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^          forEachSorted(toSerialize, function(value, key) {$/;"	function	line:9691
+defaultHttpResponseTransform	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function defaultHttpResponseTransform(data, headers) {$/;"	function	line:9705
+isJsonLike	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isJsonLike(str) {$/;"	function	line:9721
+parseHeaders	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function parseHeaders(headers) {$/;"	function	line:9732
+fillInParsed	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function fillInParsed(key, val) {$/;"	function	line:9735
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    forEach(headers, function(headerVal, headerKey) {$/;"	function	line:9747
+headersGetter	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function headersGetter(headers) {$/;"	function	line:9768
+transformData	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function transformData(data, headers, status, fns) {$/;"	function	line:9798
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  forEach(fns, function(fn) {$/;"	function	line:9803
+isSuccess	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isSuccess(status) {$/;"	function	line:9811
+$HttpProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $HttpProvider() {$/;"	function	line:9822
+useApplyAsync	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.useApplyAsync = function(value) {$/;"	function	line:9900
+useLegacyPromiseExtensions	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.useLegacyPromiseExtensions = function(value) {$/;"	function	line:9924
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    forEach(interceptorFactories, function(interceptorFactory) {$/;"	function	line:9965
+successCallback	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^     *   }).then(function successCallback(response) {$/;"	function	line:10005
+errorCallback	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^     *     }, function errorCallback(response) {$/;"	function	line:10008
+appendTransform	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^     * function appendTransform(defaults, transform) {$/;"	function	line:10168
+fetch	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        $scope.fetch = function() {$/;"	function	line:10445
+then	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^            then(function(response) {$/;"	function	line:10450
+updateModel	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        $scope.updateModel = function(method, url) {$/;"	function	line:10459
+it	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  it('should make an xhr GET request', function() {$/;"	function	line:10476
+$http	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function $http(requestConfig) {$/;"	function	line:10501
+serverRequest	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      var serverRequest = function(config) {$/;"	function	line:10523
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^          forEach(headers, function(value, header) {$/;"	function	line:10529
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      forEach(reversedInterceptors, function(interceptor) {$/;"	function	line:10548
+success	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        promise.success = function(fn) {$/;"	function	line:10565
+error	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        promise.error = function(fn) {$/;"	function	line:10574
+transformResponse	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function transformResponse(response) {$/;"	function	line:10589
+executeHeaderFns	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function executeHeaderFns(headers, config) {$/;"	function	line:10599
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        forEach(headers, function(headerFn, header) {$/;"	function	line:10602
+mergeHeaders	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function mergeHeaders(config) {$/;"	function	line:10616
+createShortMethods	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function createShortMethods(names) {$/;"	function	line:10750
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      forEach(arguments, function(name) {$/;"	function	line:10751
+createShortMethodsWithData	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function createShortMethodsWithData(name) {$/;"	function	line:10762
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      forEach(arguments, function(name) {$/;"	function	line:10763
+sendReq	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function sendReq(config, reqData) {$/;"	function	line:10781
+done	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function done(status, response, headersString, statusText) {$/;"	function	line:10844
+resolveHttpPromise	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        function resolveHttpPromise() {$/;"	function	line:10854
+resolvePromise	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function resolvePromise(response, status, headers, statusText) {$/;"	function	line:10870
+resolvePromiseWithResult	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function resolvePromiseWithResult(result) {$/;"	function	line:10883
+removePendingReq	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function removePendingReq() {$/;"	function	line:10887
+buildUrl	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function buildUrl(url, serializedParams) {$/;"	function	line:10894
+createXhr	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^ *   return function createXhr(method, url) {$/;"	function	line:10915
+$xhrFactoryProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $xhrFactoryProvider() {$/;"	function	line:10924
+$get	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.$get = function() {$/;"	function	line:10925
+createXhr	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    return function createXhr() {$/;"	function	line:10926
+$HttpBackendProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $HttpBackendProvider() {$/;"	function	line:10949
+createHttpBackend	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function createHttpBackend($browser, createXhr, $browserDefer, callbacks, rawDocument) {$/;"	function	line:10955
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      forEach(headers, function(value, key) {$/;"	function	line:10978
+requestLoaded	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      xhr.onload = function requestLoaded() {$/;"	function	line:10984
+requestError	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      var requestError = function() {$/;"	function	line:11008
+timeoutRequest	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function timeoutRequest() {$/;"	function	line:11048
+completeRequest	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function completeRequest(callback, status, response, headersString, statusText) {$/;"	function	line:11053
+jsonpReq	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  function jsonpReq(url, callbackId, done) {$/;"	function	line:11065
+callback	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    callback = function(event) {$/;"	function	line:11074
+throwNoconcat	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^$interpolateMinErr.throwNoconcat = function(text) {$/;"	function	line:11103
+interr	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^$interpolateMinErr.interr = function(text, err) {$/;"	function	line:11110
+it	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  it('should interpolate binding with custom symbols', function() {$/;"	function	line:11143
+$InterpolateProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $InterpolateProvider() {$/;"	function	line:11149
+startSymbol	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.startSymbol = function(value) {$/;"	function	line:11162
+endSymbol	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.endSymbol = function(value) {$/;"	function	line:11180
+escape	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function escape(ch) {$/;"	function	line:11196
+unescapeText	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function unescapeText(text) {$/;"	function	line:11200
+stringify	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function stringify(value) {$/;"	function	line:11205
+switch	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      switch (typeof value) {$/;"	function	line:11209
+$interpolate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function $interpolate(text, mustHaveExpression, trustedContext, allOrNothing) {$/;"	function	line:11321
+compute	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        var compute = function(values) {$/;"	function	line:11365
+getValue	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        var getValue = function(value) {$/;"	function	line:11373
+interpolationFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^        return extend(function interpolationFn(context) {$/;"	function	line:11379
+$$watchDelegate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^          $$watchDelegate: function(scope, listener) {$/;"	function	line:11398
+interpolateFnWatcher	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^            return scope.$watchGroup(parseFns, function interpolateFnWatcher(values, oldValues) {$/;"	function	line:11400
+parseStringifyInterceptor	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      function parseStringifyInterceptor(value) {$/;"	function	line:11411
+startSymbol	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    $interpolate.startSymbol = function() {$/;"	function	line:11433
+endSymbol	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    $interpolate.endSymbol = function() {$/;"	function	line:11449
+$IntervalProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $IntervalProvider() {$/;"	function	line:11457
+updateTime	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      *             function updateTime() {$/;"	function	line:11551
+interval	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function interval(fn, delay, count, invokeApply) {$/;"	function	line:11588
+tick	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^      promise.$$intervalId = setInterval(function tick() {$/;"	function	line:11604
+cancel	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    interval.cancel = function(promise) {$/;"	function	line:11633
+encodePath	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function encodePath(path) {$/;"	function	line:11669
+parseAbsoluteUrl	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function parseAbsoluteUrl(absoluteUrl, locationObj) {$/;"	function	line:11680
+parseAppUrl	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function parseAppUrl(relativeUrl, locationObj) {$/;"	function	line:11689
+beginsWith	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function beginsWith(begin, whole) {$/;"	function	line:11714
+stripHash	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function stripHash(url) {$/;"	function	line:11721
+trimEmptyHash	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function trimEmptyHash(url) {$/;"	function	line:11726
+stripFile	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function stripFile(url) {$/;"	function	line:11731
+serverBase	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function serverBase(url) {$/;"	function	line:11736
+LocationHtml5Url	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function LocationHtml5Url(appBase, appBaseNoFile, basePrefix) {$/;"	function	line:11750
+$$parse	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.$$parse = function(url) {$/;"	function	line:11761
+$$compose	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.$$compose = function() {$/;"	function	line:11781
+$$parseLinkUrl	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.$$parseLinkUrl = function(url, relHref) {$/;"	function	line:11789
+LocationHashbangUrl	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function LocationHashbangUrl(appBase, appBaseNoFile, hashPrefix) {$/;"	function	line:11829
+$$parse	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.$$parse = function(url) {$/;"	function	line:11839
+removeWindowsDriveName	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function removeWindowsDriveName(path, url, base) {$/;"	function	line:11885
+$$compose	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.$$compose = function() {$/;"	function	line:11913
+$$parseLinkUrl	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.$$parseLinkUrl = function(url, relHref) {$/;"	function	line:11921
+LocationHashbangInHtml5Url	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function LocationHashbangInHtml5Url(appBase, appBaseNoFile, hashPrefix) {$/;"	function	line:11941
+$$parseLinkUrl	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.$$parseLinkUrl = function(url, relHref) {$/;"	function	line:11945
+$$compose	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.$$compose = function() {$/;"	function	line:11969
+url	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  url: function(url) {$/;"	function	line:12037
+search	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  search: function(search, paramValue) {$/;"	function	line:12192
+switch	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    switch (arguments.length) {$/;"	function	line:12193
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^          forEach(search, function(value, key) {$/;"	function	line:12203
+replace	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  replace: function() {$/;"	function	line:12258
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^forEach([LocationHashbangInHtml5Url, LocationHashbangUrl, LocationHtml5Url], function(Location) {$/;"	function	line:12264
+state	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  Location.prototype.state = function(state) {$/;"	function	line:12286
+locationGetter	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function locationGetter(property) {$/;"	function	line:12305
+locationGetterSetter	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function locationGetterSetter(property, preprocess) {$/;"	function	line:12312
+$LocationProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $LocationProvider() {$/;"	function	line:12358
+hashPrefix	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.hashPrefix = function(prefix) {$/;"	function	line:12373
+html5Mode	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.html5Mode = function(mode) {$/;"	function	line:12401
+setBrowserUrlWithFallback	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function setBrowserUrlWithFallback(url, replace, state) {$/;"	function	line:12492
+$locationWatch	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    $rootScope.$watch(function $locationWatch() {$/;"	function	line:12600
+afterLocationChange	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function afterLocationChange(oldUrl, oldState) {$/;"	function	line:12641
+$LogProvider	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function $LogProvider() {$/;"	function	line:12692
+debugEnabled	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  this.debugEnabled = function(flag) {$/;"	function	line:12703
+formatError	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function formatError(arg) {$/;"	function	line:12768
+consoleLog	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    function consoleLog(type) {$/;"	function	line:12781
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^          forEach(arguments, function(arg) {$/;"	function	line:12795
+ensureSafeMemberName	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function ensureSafeMemberName(name, fullExpression) {$/;"	function	line:12848
+getStringValue	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function getStringValue(name, fullExpression) {$/;"	function	line:12859
+ensureSafeObject	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function ensureSafeObject(obj, fullExpression) {$/;"	function	line:12878
+ensureSafeFunction	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function ensureSafeFunction(obj, fullExpression) {$/;"	function	line:12909
+ensureSafeAssignContext	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function ensureSafeAssignContext(obj, fullExpression) {$/;"	function	line:12923
+Lexer	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var Lexer = function(options) {$/;"	function	line:12944
+lex	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  lex: function(text) {$/;"	function	line:12951
+is	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  is: function(ch, chars) {$/;"	function	line:12987
+peek	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  peek: function(i) {$/;"	function	line:12991
+isNumber	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  isNumber: function(ch) {$/;"	function	line:12996
+isWhitespace	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  isWhitespace: function(ch) {$/;"	function	line:13000
+isIdent	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  isIdent: function(ch) {$/;"	function	line:13006
+isExpOperator	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  isExpOperator: function(ch) {$/;"	function	line:13012
+throwError	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  throwError: function(error, start, end) {$/;"	function	line:13016
+readNumber	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  readNumber: function() {$/;"	function	line:13025
+readIdent	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  readIdent: function() {$/;"	function	line:13058
+readString	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  readString: function(quote) {$/;"	function	line:13074
+AST	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^var AST = function(lexer, options) {$/;"	function	line:13116
+ast	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  ast: function(text) {$/;"	function	line:13141
+program	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  program: function() {$/;"	function	line:13154
+expressionStatement	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  expressionStatement: function() {$/;"	function	line:13165
+filterChain	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  filterChain: function() {$/;"	function	line:13169
+expression	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  expression: function() {$/;"	function	line:13178
+assignment	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  assignment: function() {$/;"	function	line:13182
+ternary	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  ternary: function() {$/;"	function	line:13190
+logicalOR	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  logicalOR: function() {$/;"	function	line:13204
+logicalAND	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  logicalAND: function() {$/;"	function	line:13212
+equality	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  equality: function() {$/;"	function	line:13220
+relational	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  relational: function() {$/;"	function	line:13229
+additive	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  additive: function() {$/;"	function	line:13238
+multiplicative	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  multiplicative: function() {$/;"	function	line:13247
+unary	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  unary: function() {$/;"	function	line:13256
+primary	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  primary: function() {$/;"	function	line:13265
+filter	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  filter: function(baseExpression) {$/;"	function	line:13301
+parseArguments	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  parseArguments: function() {$/;"	function	line:13312
+identifier	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  identifier: function() {$/;"	function	line:13322
+constant	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  constant: function() {$/;"	function	line:13330
+arrayDeclaration	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  arrayDeclaration: function() {$/;"	function	line:13335
+object	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  object: function() {$/;"	function	line:13351
+throwError	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  throwError: function(msg, token) {$/;"	function	line:13377
+consume	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  consume: function(e1) {$/;"	function	line:13383
+peekToken	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  peekToken: function() {$/;"	function	line:13395
+peek	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  peek: function(e1, e2, e3, e4) {$/;"	function	line:13402
+peekAhead	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  peekAhead: function(i, e1, e2, e3, e4) {$/;"	function	line:13406
+expect	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  expect: function(e1, e2, e3, e4) {$/;"	function	line:13418
+ifDefined	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function ifDefined(v, d) {$/;"	function	line:13440
+plusFn	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function plusFn(l, r) {$/;"	function	line:13444
+isStateless	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isStateless($filter, filterName) {$/;"	function	line:13450
+findConstantAndWatchExpressions	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function findConstantAndWatchExpressions(ast, $filter) {$/;"	function	line:13455
+switch	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  switch (ast.type) {$/;"	function	line:13458
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    forEach(ast.body, function(expr) {$/;"	function	line:13461
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    forEach(ast.arguments, function(expr) {$/;"	function	line:13510
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    forEach(ast.elements, function(expr) {$/;"	function	line:13529
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    forEach(ast.properties, function(property) {$/;"	function	line:13542
+getInputs	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function getInputs(body) {$/;"	function	line:13559
+isAssignable	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isAssignable(ast) {$/;"	function	line:13567
+assignableAST	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function assignableAST(ast) {$/;"	function	line:13571
+isLiteral	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isLiteral(ast) {$/;"	function	line:13577
+isConstant	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function isConstant(ast) {$/;"	function	line:13585
+ASTCompiler	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^function ASTCompiler(astBuilder, $filter) {$/;"	function	line:13589
+compile	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  compile: function(expression, expensiveChecks) {$/;"	function	line:13595
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^    forEach(toWatch, function(watch, key) {$/;"	function	line:13619
+watchFns	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bower_components\angular\angular.js	/^  watchFns: function() {$/;"	function	line:13673
+forEach	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\bow
