@@ -6,14 +6,23 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
   $scope.formFields.stockTicker='GOOG'; //clear inputs. date picker seems to clear itself.
   $scope.formFields.amount=500;//todo delete
 
-  var adjCloseArray = null;   //TODO investigate if declaring these here is bad practice. is this like using global variables?
+  var adjCloseArray = null;
   var datesArray  = null;
   var javaScriptDatesArray = null;
-  var nearestDate = null;
   var nearestDateIndex = null;
   var datesAndValuesDictionary = null;
 
-  var investmentSeries= []; //will use this to keep track of data points for each series. summing them will give true graph series. Also by keeping track of them we can delete investments and recalculate graph line.
+
+  /*TODO
+  1.Reconnect to yahoo finance + test working as expected.
+  2.Restrict user input: date in past/maybe to week?
+  3.Dropdown list of ticker choices from yahoo.
+  4.Bootstrap CSS stuff. Make it look cool + make graph open and close depending on wether any investments have been made or not.
+  5.Friday/Monday choice and UX for this decision.
+  6.Clear initial field(?)
+  7.Investigate consequence of blank data entries from Yahoo.
+  8.Host on Heroku.
+   */
 
   /*User investment choice input table*/
 
@@ -23,17 +32,20 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
     {name:'GE', date:new Date('1999-01-20T00:00:00.000Z'), amount: 25}
   ];*/
   $scope.investments = [];
+  $scope.totalInvested = 0;
+  $scope.currentValue = 0;
 
   $scope.addInvestment = function(){
-    retrieveStockData($scope.formFields.stockTicker).then(function (results) {    //.then uses promise chain to solve asynchronous call problem
+    $scope.totalInvested = $scope.totalInvested + $scope.formFields.amount;
+    var results = retrieveStockData($scope.formFields.stockTicker);//.then(function (results) {   //TODO reinstate the use of promise //.then uses promise chain to solve asynchronous call problem
       extractRelevantStockInfo(results);
-
 
       var investment = {
         name:$scope.formFields.stockTicker,                 //Abbreviation used to uniquely identify publicly traded shares of a particular stock on a particular stock market.
         date:$scope.formFields.date,                        //Date user has selected in the GUI.
         nearestDate:javaScriptDatesArray[nearestDateIndex], //Closest date in data to user selection. JS date object.
         amount:$scope.formFields.amount,                    //Amount in euro invested.
+        sharesPurchased:$scope.formFields.amount/datesAndValuesDictionary[javaScriptDatesArray[nearestDateIndex]],             //number of shares bought for "amount" euros on "date"
         adjCloseArray:adjCloseArray,                        //Stock data from Yahoo. Stock's closing price on any given day of trading that has been amended to include any distributions and corporate actions.
         datesArray:datesArray,                              //Dates corresponding to adjCloseArray entries.
         javaScriptDatesArray:javaScriptDatesArray,          //Same as datesArray except in JavaScript Date format. Needed for finding nearestDateIndex. Might be useful for other stuff too.
@@ -43,19 +55,22 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
       $scope.investments.push(investment);                  //Persist investment data
 
       var earliestDate = findEarliestDate($scope.investments);
-      //createInvestmentSeries(stockObject);  //Construct data points for graph. Need to combine individual investments into overall portfolio.
-      prepareGraphData(earliestDate,$scope.investments);    //Create labels for graph. Need a date for every friday between the earliest investment and the current date. Then fill a second series corrosponding to portfolio values on each date.
-      //drawGraph(dataArray,datesArray);                    //strips down labels. Redraw graph.
-
+      prepareGraphDataAndDrawGraph(earliestDate,$scope.investments);    //Create labels for graph. Need a date for every friday between the earliest investment and the current date. Then fill a second series corrosponding to portfolio values on each date.
+      updateCurrentValue();
       //$scope.formFields.stockTicker='';                   //clear inputs. date picker seems to clear itself.
       //$scope.formFields.amount='';
       $scope.formFields.stockTicker='GOOG'; //clear inputs. date picker seems to clear itself.
       $scope.formFields.amount=500;
-    });
+   // });
   }
 
   $scope.removeInvestment = function(index){
+    $scope.totalInvested = $scope.totalInvested - $scope.investments[index].amount;
     $scope.investments.splice(index, 1);
+    var earliestDate = findEarliestDate($scope.investments);
+    prepareGraphDataAndDrawGraph(earliestDate,$scope.investments);
+    updateCurrentValue();
+
   };
 
 
@@ -63,10 +78,10 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
 
   function retrieveStockData(ticker) {
     //e.g. ticker = 'GOOG'
-    return InvestmentsService.getStockData(ticker).then(function (results) {
-      return JSON.parse($scope.UTIL.csv2Json(results.data.slice(0, -1)));  //need to slice off a return at end of data.
-    });
-    //return JSON.parse(JSON.stringify($scope.testJson));
+    //return InvestmentsService.getStockData(ticker).then(function (results) {
+    //  return JSON.parse($scope.UTIL.csv2Json(results.data.slice(0, -1)));  //need to slice off a return at end of data.
+    //});
+    return JSON.parse(JSON.stringify($scope.testJson));
   }
 
 
@@ -79,15 +94,15 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
       if (stockJsonArray.hasOwnProperty(key)) {
         adjCloseArray.push(stockJsonArray[key]['Adj Close']);
         datesArray.push(stockJsonArray[key].Date);
-        datesAndValuesDictionary[stockJsonArray[key].Date]=stockJsonArray[key]['Adj Close'];
+        datesAndValuesDictionary[convertStringDateToJsDate(stockJsonArray[key].Date)]=stockJsonArray[key]['Adj Close'];
       }
     }
 
-    adjCloseArray=adjCloseArray.reverse();  //TODO Optimise. Surely this is unnecessary extra work.
-    datesArray=datesArray.reverse();
+    adjCloseArray = adjCloseArray.reverse();  //TODO Optimise. Surely this is unnecessary extra work.
+    datesArray = datesArray.reverse();
     javaScriptDatesArray = convertStringDatesToJsDates(datesArray);
-    nearestDateIndex = getNearestDateIndex(adjCloseArray, new Date($scope.formFields.date));
-    //$scope.nearestDate=stockObject.dataArray[0]; //it works!!!
+    nearestDateIndex = getNearestDateIndex(javaScriptDatesArray, new Date($scope.formFields.date));
+    //$scope.nearestDate = stockObject.dataArray[0]; //it works!!!
   }
 
   function convertStringDatesToJsDates(datesArray){
@@ -97,6 +112,21 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
       dateObjects.push(date);
     }
     return dateObjects;
+  }
+
+  function convertStringDateToJsDate(dateString){
+    var date = new Date(dateString+'T00:00:00.000Z');
+    return date;
+  }
+
+  function convertJsDateToStringDate(jsDate){
+    var dd = jsDate.getDate().toString();
+    if(dd.length==1)dd=[0,dd].join('');
+    var mm = (jsDate.getMonth()+1).toString();
+    if(mm.length==1)mm=[0,mm].join('');
+    var yyyy = jsDate.getFullYear().toString();
+
+    return [dd,mm,yyyy].join("-");
   }
 
   function getNearestDateIndex(datesArray,testDate){
@@ -115,12 +145,11 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
         bestDiff = currDiff;
       }
     }
-    //var date = new Date('2015-12-16T00:00:00.000Z');
     return bestDate;
   }
 
   function findEarliestDate(investments){
-    var earliestDate = new Date('2016-08-20T00:00:00.000Z');         //initialise earliest date to today. //TODO replace
+    var earliestDate = new Date();         //initialise earliest date to today.
 
     for(var i = 0; i < investments.length; ++i){
       if(investments[i].nearestDate < earliestDate){    //then cycle through investments to find chronologically earliest.
@@ -128,51 +157,39 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
       }
     }
 
-    //for (var investment in investments) {
-    //  if(investment.nearestDate < earliestDate){    //TODO find out why this doesn't work
-    //    earliestDate=investment.nearestDate;
-    //  }
-    //}
     return earliestDate;
   }
 
-  function createInvestmentSeries(stockObject){
-    var series = {};
-    for(var i = stockObject.nearestDateIndex; i<stockObject.dateObjectArray.length;i++){
-      series[stockObject.dateObjectArray[i]]=stockObject.dataArray[i];
-    }
-    $scope.nearestDate=stockObject.dateObjectArray[stockObject.dateObjectArray.length];
-    investmentSeries.push(series);
-  }
-
-  function prepareGraphData(earliestDate,investments){
-    //1.set labels array. start at earliest date. add label for every friday between earliest and today. possibly set data array here too?
+  function prepareGraphDataAndDrawGraph(earliestDate,investments){
+    //1.set labels array. start at earliest date. add label for every friday(monday?) between earliest and today. Set data values array here too
+    var dateLabel=earliestDate;
     var dateLabels=[];  //dates for x axis
     var dateValues=[];  //portfolio value on this date, y axis.
     var value=0;
     var currDate= new Date();
 
-    while(earliestDate<currDate){
-      dateLabels.push(earliestDate);
-
-      //var dateString = dateObjectToString(earliestDate);
+    while(dateLabel<currDate){
+      dateLabels.push(convertJsDateToStringDate(dateLabel));
 
       value=0;
-      for (var investment in investments){
-        value = value + (investment.amount*(investment.datesAndValuesDictionary[earliestDate]));    //need dictionary e.g. date1:adjClose1 , date2:adjClose2 etc...
+      for(var i = 0; i < investments.length; ++i) {
+        if(dateLabel >= investments[i].date){  //if date is before investment is made its not added to total for that date
+          value = value + (investments[i].sharesPurchased * (investments[i].datesAndValuesDictionary[dateLabel]));    //need dictionary e.g. date1:adjClose1 , date2:adjClose2 etc...
+        }
       }
 
-
-      totalValueArray.push(value);
-      earliestDate = addDays(earliestDate, 7);
+      dateValues.push(value);
+      dateLabel = addDays(dateLabel, 7);
     }
 
+    //do a sweep setting any zero values to match previous. this should prevent days with missing data screwing up the graph.//TODO test with extended data
 
-    //2.iterate through labels adding (amount1*price1)+(amount2*price2)+(amount3*price3) at each point. Just do this in the first place?
+    $scope.data=[];
+    $scope.labels=[];   //clear existing graph
+    $scope.data.push(dateValues);  //chartJS data is in the form of [[series1],[series2]]. Effectively a multi dimensional array. Each array is a line series.
+    $scope.labels=stripDownLabels(dateLabels);
 
-    //3.one more sweep setting any zero values to match previous. this should prevent days with missing data skrewing up the graph.
   }
-
 
   function addDays(date, days) {
     var result = new Date(date);
@@ -180,24 +197,27 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
     return result;
   }
 
-
-
   /*ChartJS Stuff*/
 
-  function drawGraph(dataArray,labelsArray){
-    $scope.data=[];
-    $scope.labels=[];   //clear existing graph
-    $scope.data.push(dataArray);  //chartJS data is in the form of [[series1],[series2]]. Effectively a multi dimensional array.
-    $scope.labels=labelsArray;
+  function stripDownLabels(labels){
 
-    if($scope.labels.length>50){
-      var stepSize = Math.round($scope.labels.length/50);     //this is to stop too many labels showing up on X-axis of graph. They should really build this into chartJS.
-      for(var i= 0; i<$scope.labels.length; i++){
+    if(labels.length>50){
+      var stepSize = Math.round(labels.length/50);     //this is to stop too many labels showing up on X-axis of graph. They should really build this into chartJS.
+      for(var i= 0; i<labels.length; i++){
         if(i%stepSize!==0){
-          $scope.labels[i]='';
+          labels[i]='';
         }
       }
     }
+
+    return labels;
+  }
+
+  function updateCurrentValue() {
+    if($scope.data[0].slice(-1)[0])
+      $scope.currentValue=$scope.data[0].slice(-1)[0];
+    else
+      $scope.currentValue=0;
   }
 
   $scope.chartOptions= {
@@ -209,57 +229,46 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
     showTooltips: false
   };
 
-  $scope.labels = ['May', 'June', 'July', 'February', 'March', 'April', 'May', 'June', 'July', 'February', 'March', 'April', 'May', 'June', 'July', 'February', 'March', 'April', 'May', 'June', 'July', 'February', 'March', 'April', 'May', 'June', 'July', 'February', 'March', 'April'];
-  //$scope.series = ['Investing', 'Saving'];
   $scope.series = ['Investing'];
-
-  $scope.data = [[59, 80, 81, 56, 55, 40,65, 59, 80, 81, 56, 55, 40, 65, 59, 80, 81, 56, 55, 40, 65, 59, 80, 81, 56, 55, 40, 65, 59, 80]];
-  /*$scope.data = [
-    //[65, 59, 80, 81, 56, 55, 40],
-    //[28, 48, 40, 19, 86, 27, 90]
-    [59, 80, 81, 56, 55, 40,65, 59, 80, 81, 56, 55, 40, 65, 59, 80, 81, 56, 55, 40, 65, 59, 80, 81, 56, 55, 40, 65, 59, 80, 81, 56, 55, 40]
-  ];*/
-
-
 
   /*Some test data*/
 
   $scope.testJson=[
     {
-      'Date':'2016-07-29',
+      'Date':'2016-08-29',
       'Open':'31.690001',
       'High':'31.709999',
       'Low':'30.51',
       'Close':'30.790001',
       'Volume':'33991200',
-      'Adj Close':'31.790001'
+      'Adj Close':'100'
     },
     {
-      'Date':'2016-08-05',
+      'Date':'2016-08-22',
       'Open':'31.690001',
       'High':'31.709999',
       'Low':'30.51',
       'Close':'37.790001',
       'Volume':'33991200',
-      'Adj Close':'30.790001'
+      'Adj Close':'100'
     },
     {
-      'Date':'2016-08-12',
+      'Date':'2016-08-15',
       'Open':'31.690001',
       'High':'31.709999',
       'Low':'30.51',
       'Close':'50.790001',
       'Volume':'33991200',
-      'Adj Close':'34.790001'
+      'Adj Close':'100'
     },
     {
-      'Date':'2016-08-19',
+      'Date':'2016-08-08',
       'Open':'31.690001',
       'High':'31.709999',
       'Low':'30.51',
       'Close':'32.790001',
       'Volume':'33991200',
-      'Adj Close':'32.790001'
+      'Adj Close':'100'
     }
   ];
 
