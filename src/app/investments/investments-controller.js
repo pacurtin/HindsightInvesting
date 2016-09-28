@@ -6,6 +6,9 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
   $scope.formFields.stockTicker='GOOG'; //clear inputs. date picker seems to clear itself.
   $scope.formFields.amount=500;//todo delete
 
+  $scope.maxDate = new Date();
+  $scope.dateSelectionTooOldFlag = false;
+
   var adjCloseArray = null;
   var datesArray  = null;
   var javaScriptDatesArray = null;
@@ -15,7 +18,6 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
 
   /*TODO
   1.Reconnect to yahoo finance + test working as expected.
-  2.Restrict user input: date in past/maybe to week?
   3.Dropdown list of ticker choices from yahoo.
   4.Bootstrap CSS stuff. Make it look cool + make graph open and close depending on wether any investments have been made or not.
   5.Friday/Monday choice and UX for this decision.
@@ -45,12 +47,13 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
         date:$scope.formFields.date,                        //Date user has selected in the GUI.
         nearestDate:javaScriptDatesArray[nearestDateIndex], //Closest date in data to user selection. JS date object.
         amount:$scope.formFields.amount,                    //Amount in euro invested.
-        sharesPurchased:$scope.formFields.amount/datesAndValuesDictionary[javaScriptDatesArray[nearestDateIndex]],             //number of shares bought for "amount" euros on "date"
+        sharesPurchased:$scope.formFields.amount/datesAndValuesDictionary[javaScriptDatesArray[nearestDateIndex]],   //number of shares bought for "amount" euros on "date"
         adjCloseArray:adjCloseArray,                        //Stock data from Yahoo. Stock's closing price on any given day of trading that has been amended to include any distributions and corporate actions.
         datesArray:datesArray,                              //Dates corresponding to adjCloseArray entries.
         javaScriptDatesArray:javaScriptDatesArray,          //Same as datesArray except in JavaScript Date format. Needed for finding nearestDateIndex. Might be useful for other stuff too.
         nearestDateIndex:nearestDateIndex,                  //This stores the index of javaScriptDatesArray (and by extension of datesArray) which is closest to 'date'.
-        datesAndValuesDictionary:datesAndValuesDictionary   //Using date as a key will return the closing price of that day.
+        datesAndValuesDictionary:datesAndValuesDictionary,   //Using date as a key will return the closing price of that day.
+        dateSelectionTooOldFlag:$scope.dateSelectionTooOldFlag  //Use to inform user they have selected a date that is too far in the past for their chosen stock.
       };
       $scope.investments.push(investment);                  //Persist investment data
 
@@ -62,7 +65,7 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
       $scope.formFields.stockTicker='GOOG'; //clear inputs. date picker seems to clear itself.
       $scope.formFields.amount=500;
    // });
-  }
+  };
 
   $scope.removeInvestment = function(index){
     $scope.totalInvested = $scope.totalInvested - $scope.investments[index].amount;
@@ -129,8 +132,9 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
     return [dd,mm,yyyy].join("-");
   }
 
-  function getNearestDateIndex(datesArray,testDate){
+  function getNearestDateIndex(datesArray,datePickerDate){
     //Yahoo returns the entire history of the stock. We need to find the nearest entry in the data to the date of investment chosen by the user.
+    $scope.dateSelectionTooOldFlag = false;
     var bestDate = datesArray.length;
     var bestDiff = -(new Date(0,0,0)).valueOf();
     var currDiff = 0;
@@ -138,12 +142,17 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
 
     for(i = 0; i < datesArray.length; ++i)
     {
-      currDiff = Math.abs(datesArray[i] - testDate);
+      currDiff = Math.abs(datesArray[i] - datePickerDate);
       if(currDiff < bestDiff)
       {
         bestDate = i;
         bestDiff = currDiff;
       }
+    }
+
+    if(bestDate==0){
+        $scope.dateSelectionTooOldFlag = true;              //user selected date predating the stocks earliest entry in Yahoos data. Warn them selection defaults to earliest available date.
+        $scope.formFields.date = datesArray[0];
     }
     return bestDate;
   }
@@ -235,7 +244,7 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
 
   $scope.testJson=[
     {
-      'Date':'2016-08-29',
+      'Date':'2016-09-26',
       'Open':'31.690001',
       'High':'31.709999',
       'Low':'30.51',
@@ -244,7 +253,7 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
       'Adj Close':'100'
     },
     {
-      'Date':'2016-08-22',
+      'Date':'2016-09-19',
       'Open':'31.690001',
       'High':'31.709999',
       'Low':'30.51',
@@ -253,7 +262,7 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
       'Adj Close':'100'
     },
     {
-      'Date':'2016-08-15',
+      'Date':'2016-09-12',
       'Open':'31.690001',
       'High':'31.709999',
       'Low':'30.51',
@@ -262,7 +271,7 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
       'Adj Close':'100'
     },
     {
-      'Date':'2016-08-08',
+      'Date':'2016-09-05',
       'Open':'31.690001',
       'High':'31.709999',
       'Low':'30.51',

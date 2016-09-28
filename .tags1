@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+addInvestment	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  $scope.addInvestment = function(){$/;"	function	line:40
+removeInvestment	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  $scope.removeInvestment = function(index){$/;"	function	line:70
+retrieveStockData	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function retrieveStockData(ticker) {$/;"	function	line:82
+extractRelevantStockInfo	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function extractRelevantStockInfo(stockJsonArray){$/;"	function	line:91
+convertStringDatesToJsDates	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function convertStringDatesToJsDates(datesArray){$/;"	function	line:111
+convertStringDateToJsDate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function convertStringDateToJsDate(dateString){$/;"	function	line:120
+convertJsDateToStringDate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function convertJsDateToStringDate(jsDate){$/;"	function	line:125
+getNearestDateIndex	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function getNearestDateIndex(datesArray,datePickerDate){$/;"	function	line:135
+findEarliestDate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function findEarliestDate(investments){$/;"	function	line:160
+prepareGraphDataAndDrawGraph	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function prepareGraphDataAndDrawGraph(earliestDate,investments){$/;"	function	line:172
+addDays	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function addDays(date, days) {$/;"	function	line:203
+stripDownLabels	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function stripDownLabels(labels){$/;"	function	line:211
+updateCurrentValue	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function updateCurrentValue() {$/;"	function	line:225
