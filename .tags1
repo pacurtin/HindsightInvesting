@@ -8,12 +8,13 @@ addInvestment	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\i
 removeInvestment	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  $scope.removeInvestment = function(index){$/;"	function	line:70
 retrieveStockData	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function retrieveStockData(ticker) {$/;"	function	line:82
 extractRelevantStockInfo	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function extractRelevantStockInfo(stockJsonArray){$/;"	function	line:91
-convertStringDatesToJsDates	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function convertStringDatesToJsDates(datesArray){$/;"	function	line:111
-convertStringDateToJsDate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function convertStringDateToJsDate(dateString){$/;"	function	line:120
-convertJsDateToStringDate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function convertJsDateToStringDate(jsDate){$/;"	function	line:125
-getNearestDateIndex	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function getNearestDateIndex(datesArray,datePickerDate){$/;"	function	line:135
-findEarliestDate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function findEarliestDate(investments){$/;"	function	line:160
-prepareGraphDataAndDrawGraph	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function prepareGraphDataAndDrawGraph(earliestDate,investments){$/;"	function	line:172
-addDays	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function addDays(date, days) {$/;"	function	line:203
-stripDownLabels	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function stripDownLabels(labels){$/;"	function	line:211
-updateCurrentValue	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function updateCurrentValue() {$/;"	function	line:225
+convertStringDatesToJsDates	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function convertStringDatesToJsDates(datesArray){$/;"	function	line:112
+convertStringDateToJsDate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function convertStringDateToJsDate(dateString){$/;"	function	line:121
+convertJsDateToStringDate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function convertJsDateToStringDate(jsDate){$/;"	function	line:126
+getNearestDateIndex	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function getNearestDateIndex(datesArray,datePickerDate){$/;"	function	line:136
+findEarliestDate	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function findEarliestDate(investments){$/;"	function	line:161
+prepareGraphDataAndDrawGraph	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function prepareGraphDataAndDrawGraph(earliestDate,investments){$/;"	function	line:173
+nearestMonday	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function nearestMonday(date) {$/;"	function	line:204
+addDays	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function addDays(date, days) {$/;"	function	line:211
+stripDownLabels	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function stripDownLabels(labels){$/;"	function	line:219
+updateCurrentValue	C:\Users\padraig\Desktop\New Projects\HindsightInvesting\src\app\investments\investments-controller.js	/^  function updateCurrentValue() {$/;"	function	line:233
