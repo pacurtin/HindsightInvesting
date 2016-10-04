@@ -2,10 +2,6 @@
   "name": "hindsightinvesting",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "start": "gulp watch",
-    "test": "gulp test"
-  },
   "dependencies": {
     "cors": "^2.7.1",
     "express": "^4.13.4",
