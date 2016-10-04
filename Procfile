@@ -1,1 +1,1 @@
-gulp serve
+web gulp serve
