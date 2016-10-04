@@ -84,6 +84,6 @@
   },
   "scripts": {
     "start": "node app",
-    "postinstall": "gulp serve"
+    "postinstall": "bower install && gulp serve"
   }
 }
