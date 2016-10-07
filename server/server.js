@@ -3,7 +3,7 @@ var request = require('request');
 var cors = require('cors');
 var app = express();
 
-app.use(cors({origin: 'http://localhost:3000'}));
+app.use(cors({origin: 'http://localhost:5000'}));
 
 app.get('/getIndividualStockData', function (req, res) {
   request('http://ichart.finance.yahoo.com/table.csv?s='+req.query.stockTicker+'&g=w', function (error, response, body) {

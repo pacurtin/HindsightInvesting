@@ -21,6 +21,7 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
   1.Host on Heroku.
   2.Date cant be changed manually.
   3.Bootstrap CSS stuff. Make it look cool + make graph open and close depending on if any investments have been made or not.
+  4.Ticker not on Yahoo check.
    */
 
   /*User investment choice input table*/
