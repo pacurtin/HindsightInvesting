@@ -76,7 +76,6 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
 
   function retrieveStockData(ticker) {
     //e.g. ticker = 'GOOG'
-    console.log("Made it here 1");
     return InvestmentsService.getStockData(ticker).then(function (results) {
       if(results.data == "Stock not found"){
         return "Stock not found";
