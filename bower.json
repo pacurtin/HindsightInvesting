@@ -5,14 +5,13 @@
     "/dist/hindsightinvesting.min.css"
   ],
   "version": "0.1.0",
-  "description": "TODO",
+  "description": "An excercise to learn angular development and how to deploy to Heroku",
   "authors": [
-    "TODO"
+    "Padraig Curtin"
   ],
   "ignore": [
     "**/.*",
     "package.json",
-    "klei.json",
     "gulpfile.js",
     "node_modules",
     "bower_components",

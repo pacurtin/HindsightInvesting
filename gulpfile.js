@@ -6,7 +6,7 @@ var gulp = require('gulp'),
     noop = g.util.noop,
     es = require('event-stream'),
     bowerFiles = require('main-bower-files'),
-    rimraf = require('rimraf'),
+    //rimraf = require('rimraf'),
     queue = require('streamqueue'),
     lazypipe = require('lazypipe'),
     stylish = require('jshint-stylish'),
@@ -14,7 +14,7 @@ var gulp = require('gulp'),
     spawn = require('child_process').spawn,
     isWatching = false;
 
-var exec = require('child_process').exec;
+//var exec = require('child_process').exec;
 
 var htmlminOpts = {
   removeComments: true,
@@ -37,34 +37,7 @@ gulp.task('jshint', function () {
     .pipe(livereload());
 });
 
-/**
- * CSS
- */
-gulp.task('clean-css', function (done) {
-  rimraf('./.tmp/css', done);
-});
 
-gulp.task('styles', ['clean-css'], function () {
-  return gulp.src([
-    './src/app/**/*.styl',
-    '!./src/app/**/_*.styl'
-  ])
-    .pipe(g.stylus({use: [require('nib')()]}))
-    .pipe(gulp.dest('./.tmp/css/'))
-    .pipe(g.cached('built-css'))
-    .pipe(livereload());
-});
-
-gulp.task('styles-dist', ['styles'], function () {
-  return cssFiles().pipe(dist('css', bower.name));
-});
-
-gulp.task('csslint', ['styles'], function () {
-  return cssFiles()
-    .pipe(g.cached('csslint'))
-    .pipe(g.csslint('./.csslintrc'))
-    .pipe(g.csslint.reporter());
-});
 
 /**
  * Scripts
@@ -105,7 +78,7 @@ gulp.task('vendors', function () {
  * Index
  */
 gulp.task('index', index);
-gulp.task('build-all', ['styles', 'templates'], index);
+gulp.task('build-all', ['templates'], index);                 //['styles', 'templates'], index);
 
 function index () {
   var opt = {read: false};
@@ -159,7 +132,11 @@ gulp.task('server', function() {
 /**
  * Watch
  */
-gulp.task('serve', ['watch']);
+//gulp.task('serve', ['watch']);
+//Same as watch command except live reload won't activate.
+gulp.task('serve', ['statics', 'default']);
+
+
 gulp.task('watch', ['statics', 'default'], function () {
   isWatching = true;
   // Initiate livereload server:
@@ -173,13 +150,6 @@ gulp.task('watch', ['statics', 'default'], function () {
   });
   gulp.watch('./src/app/index.html', ['index']);
   gulp.watch(['./src/app/**/*.html', '!./src/app/index.html'], ['templates']);
-  gulp.watch(['./src/app/**/*.styl'], ['csslint']).on('change', function (evt) {
-    if (evt.type !== 'changed') {
-      gulp.start('index');
-    } else {
-      g.livereload.changed(evt);
-    }
-  });
 });
 
 /**
@@ -190,47 +160,8 @@ gulp.task('default', ['lint', 'build-all', 'server']);
 /**
  * Lint everything
  */
-gulp.task('lint', ['jshint', 'csslint']);
+gulp.task('lint', ['jshint']);            //,'csslint']);
 
-/**
- * Test
- */
-gulp.task('test', ['templates'], function () {
-  return testFiles()
-    .pipe(g.karma({
-      configFile: 'karma.conf.js',
-      action: 'run'
-    }));
-});
-
-/**
- * Inject all files for tests into karma.conf.js
- * to be able to run `karma` without gulp.
- */
-gulp.task('karma-conf', ['templates'], function () {
-  return gulp.src('./karma.conf.js')
-    .pipe(g.inject(testFiles(), {
-      starttag: 'files: [',
-      endtag: ']',
-      addRootSlash: false,
-      transform: function (filepath, file, i, length) {
-        return '  \'' + filepath + '\'' + (i + 1 < length ? ',' : '');
-      }
-    }))
-    .pipe(gulp.dest('./'));
-});
-
-/**
- * Test files
- */
-function testFiles() {
-  return new queue({objectMode: true})
-    .queue(gulp.src(fileTypeFilter(bowerFiles(), 'js')))
-    .queue(gulp.src('./bower_components/angular-mocks/angular-mocks.js'))
-    .queue(appFiles())
-    .queue(gulp.src(['./src/app/**/*_test.js', './.tmp/src/app/**/*_test.js']))
-    .done();
-}
 
 /**
  * All CSS files as a stream

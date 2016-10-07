@@ -18,19 +18,13 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
 
 
   /*TODO
-  1.Reconnect to yahoo finance + test working as expected.
+  1.Host on Heroku.
   2.Date cant be changed manually.
   3.Bootstrap CSS stuff. Make it look cool + make graph open and close depending on if any investments have been made or not.
-  4.Host on Heroku.
    */
 
   /*User investment choice input table*/
 
-  /*$scope.investments = [
-    {name:'GOOG', date:new Date('2015-08-16T00:00:00.000Z'), amount: 50},
-    {name:'AAPL', date:new Date('2009-11-23T00:00:00.000Z'), amount: 100},
-    {name:'GE', date:new Date('1999-01-20T00:00:00.000Z'), amount: 25}
-  ];*/
   $scope.investments = [];
   $scope.totalInvested = 0;
   $scope.currentValue = 0;
@@ -253,7 +247,7 @@ angular.module('hindsightinvesting.investments').controller('InvestmentsCtrl', [
     showTooltips: false
   };
 
-  $scope.series = ['Investing'];
+  $scope.series = ['Portfolio Value'];
 
   /*Some test data*/
 

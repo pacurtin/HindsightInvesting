@@ -2,7 +2,6 @@ var app = angular.module('hindsightinvesting', [
   'ui.bootstrap',
   'ngRoute',
   'chart.js',
-  'hindsightinvesting.todo',
   'hindsightinvesting.investments',
   'ngMaterial'
 ])
@@ -10,10 +9,6 @@ var app = angular.module('hindsightinvesting', [
     'use strict';
 
     $routeProvider
-      .when('/todo', {
-        controller: 'TodoCtrl',
-        templateUrl: '/hindsightinvesting/todo/todo.html'
-      })
       .when('/investments', {
         controller: 'InvestmentsCtrl',
         templateUrl: '/hindsightinvesting/investments/investments.html'
