@@ -158,7 +158,7 @@ gulp.task('watch', ['statics', 'default'], function () {
 /**
  * Default task
  */
-gulp.task('default', ['lint', 'build-all']);//, 'server']);
+gulp.task('default', ['lint', 'build-all', 'server']);
 
 /**
  * Lint everything
