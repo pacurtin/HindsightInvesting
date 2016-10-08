@@ -119,6 +119,9 @@ gulp.task('statics', g.serve({
 }));
 
 
+/**
+ * CORS Server.
+ */
 gulp.task('server', function() {
   if (node) {node.kill();}
   var node = spawn('node', ['server/server.js'], {stdio: 'inherit'});
@@ -155,7 +158,7 @@ gulp.task('watch', ['statics', 'default'], function () {
 /**
  * Default task
  */
-gulp.task('default', ['lint', 'build-all', 'server']);
+gulp.task('default', ['lint', 'build-all']);//, 'server']);
 
 /**
  * Lint everything
