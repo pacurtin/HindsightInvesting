@@ -116,7 +116,7 @@ gulp.task('dist', ['vendors', 'assets', 'scripts-dist'], function () {
 gulp.task('statics', g.serve({
   //port: 5000,
   port:(process.env.PORT || 5000),
-  root: ['./.tmp', './.tmp/src/app', './src/app', './bower_components']
+  root: ['./.tmp', './.tmp/src/app', './src/app', './bower_components', 'node_modules']
 }));
 
 
