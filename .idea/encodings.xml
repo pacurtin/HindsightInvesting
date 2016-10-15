@@ -8,7 +8,6 @@
     <file url="file://$PROJECT_DIR$/bower_components/bootstrap/.bower.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gulpfile.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server/server.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/server/users.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/app/app.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/app/investments/investments-controller.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/app/investments/investments-service.js" charset="UTF-8" />
